@@ -1,0 +1,2 @@
+/*
+  Content-Security-Policy: default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: https: wss:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://unpkg.com https://*.elevenlabs.io; connect-src 'self' https://res.cloudinary.com https://*.elevenlabs.io wss://*.elevenlabs.io; img-src 'self' data: https: blob:; media-src 'self' blob: data: https://res.cloudinary.com https://*.cloudinary.com https://*.elevenlabs.io; font-src 'self' https://fonts.gstatic.com https://fonts.googleapis.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
