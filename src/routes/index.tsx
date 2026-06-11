@@ -51,7 +51,7 @@ export function Navbar() {
     <>
       <div className="fixed top-0 left-0 right-0 z-50 flex flex-col">
         <nav className="bg-white/95 backdrop-blur-sm border-b border-gray-100 w-full">
-          <div className="max-w-[1440px] mx-auto px-8 md:px-12 h-20 flex items-center justify-between">
+          <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 h-20 flex items-center justify-between">
             <Link to="/" className="text-[14px] font-bold tracking-[0.25em] uppercase text-black">
               HLQQ
             </Link>
@@ -100,7 +100,7 @@ export function Navbar() {
         style={{ WebkitOverflowScrolling: 'touch' }}
       >
         {/* Replicate nav bar at top of menu */}
-        <div className="h-20 flex items-center justify-between px-8">
+        <div className="h-20 flex items-center justify-between px-5 sm:px-8">
           <Link
             to="/"
             onClick={() => setMenuOpen(false)}
@@ -120,7 +120,7 @@ export function Navbar() {
             <span className="block w-6 h-[2px] bg-black -rotate-45 -translate-y-[7px] mt-[5px] transition-all duration-300" />
           </button>
         </div>
-        <div className="px-8 pt-8 pb-12 space-y-6 text-[15px] font-medium tracking-[0.08em] border-t border-black/10">
+        <div className="px-5 sm:px-8 pt-8 pb-12 space-y-6 text-[15px] font-medium tracking-[0.08em] border-t border-black/10">
           {navLinks.map((link) => (
             <Link
               key={link.label}
@@ -144,7 +144,7 @@ export function Navbar() {
 function SeparadorMirar() {
   return (
     <section className="py-20 md:py-28 bg-white border-t border-[#111111]/10">
-      <div className="max-w-[1440px] mx-auto px-8 md:px-12">
+      <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12">
         <div className="flex items-center gap-4 sm:gap-6 md:gap-10">
           <span className="h-[2px] flex-1 bg-[#111111]" />
           <h2 className="text-center text-[clamp(1rem,3vw,2.25rem)] font-extrabold uppercase tracking-[0.06em] sm:tracking-[0.08em] leading-tight text-[#111111]">
@@ -164,7 +164,7 @@ function Services() {
     <section id="servicios" className="relative w-full overflow-hidden bg-white border-t border-[#e07328]/10 scroll-mt-32">
       {/* ── SEPARATOR TITULO: SERVICIOS ── */}
       <div className="w-full bg-white border-b border-[#e07328]/10 py-16">
-        <div className="max-w-[1440px] mx-auto px-8 md:px-12 flex flex-col md:flex-row md:items-center justify-between gap-6">
+        <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 flex flex-col md:flex-row md:items-center justify-between gap-6">
           <div className="flex items-center gap-6">
             <span className="text-[14px] font-black tracking-[0.25em] text-[#e07328]">02</span>
             <div className="w-[1px] h-8 bg-gray-300"></div>
@@ -175,7 +175,7 @@ function Services() {
       </div>
 
       {/* ── La fotografía evolucionó + Del Click al Prompt ── */}
-      <div className="max-w-[1440px] mx-auto px-8 md:px-12 pt-16 md:pt-28">
+      <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 pt-16 md:pt-28">
         <div className="max-w-5xl">
           <h3 className="text-[clamp(1.5rem,3vw,2.75rem)] leading-[1.15] tracking-[-0.02em] text-black">
             <span className="font-light text-[#333333]">La fotografía </span>
@@ -243,7 +243,7 @@ function Services() {
         </div>
       </div>
 
-      <div className="max-w-[1440px] mx-auto px-8 md:px-12 py-16 md:py-28">
+      <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 py-16 md:py-28">
         {/* ── Soluciones Audiovisuales — encabezado ── */}
         <div className="mb-12 md:mb-16">
           <h2 className="text-[clamp(2rem,4vw,3.5rem)] font-extrabold tracking-[-0.02em] text-black leading-[1.05]">
@@ -296,7 +296,7 @@ function GaleriaTrabajos() {
 
   return (
     <section className="relative w-full overflow-hidden bg-white border-t border-[#e07328]/10">
-      <div className="max-w-[1440px] mx-auto px-8 md:px-12 py-16 md:py-28">
+      <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 py-16 md:py-28">
 
         {/* ── Encabezado ── */}
         <div className="mb-10">
@@ -345,7 +345,7 @@ function Formacion() {
     <section id="formacion" className="relative w-full overflow-hidden bg-white border-t border-[#e07328]/10 scroll-mt-32">
       {/* ── SEPARATOR TITULO: FORMACIÓN ── */}
       <div className="w-full bg-white border-b border-[#e07328]/10 py-16">
-        <div className="max-w-[1440px] mx-auto px-8 md:px-12 flex flex-col md:flex-row md:items-center justify-between gap-6">
+        <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 flex flex-col md:flex-row md:items-center justify-between gap-6">
           <div className="flex items-center gap-6">
             <span className="text-[14px] font-black tracking-[0.25em] text-[#e07328]">01</span>
             <div className="w-[1px] h-8 bg-gray-300"></div>
@@ -357,7 +357,7 @@ function Formacion() {
 
       {/* ── Section content ── */}
       <div className="py-16 md:py-28">
-        <div className="max-w-[1440px] mx-auto px-8 md:px-12">
+        <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12">
 
           {/* ── Section entry title ── */}
           <div className="mb-16">
@@ -765,7 +765,7 @@ function Formacion() {
 function ElFormador() {
   return (
     <section className="relative w-full overflow-hidden bg-white border-t border-[#e07328]/10">
-      <div className="max-w-[1440px] mx-auto px-8 md:px-12 py-16 md:py-28">
+      <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 py-16 md:py-28">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
           <div className="lg:col-span-3">
             <div className="aspect-[4/5] overflow-hidden border border-neutral-200 bg-white shadow-sm max-w-[240px]">
@@ -822,7 +822,7 @@ function Galeria() {
 
   return (
     <section className="relative w-full overflow-hidden bg-white border-t border-[#e07328]/10">
-      <div className="max-w-[1440px] mx-auto px-8 md:px-12 py-16 md:py-28">
+      <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 py-16 md:py-28">
 
         {/* ── Encabezado ── */}
         <div className="mb-10">
@@ -863,7 +863,7 @@ function ContactSection() {
     <section id="contacto" className="relative w-full overflow-hidden bg-white border-t border-[#e07328]/10 scroll-mt-32">
       {/* ── SEPARATOR TITULO: CONTACTO ── */}
       <div className="w-full bg-white border-b border-[#e07328]/10 py-16">
-        <div className="max-w-[1440px] mx-auto px-8 md:px-12 flex flex-col md:flex-row md:items-center justify-between gap-6">
+        <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 flex flex-col md:flex-row md:items-center justify-between gap-6">
           <div className="flex items-center gap-6">
             <span className="text-[14px] font-black tracking-[0.25em] text-[#e07328]">03</span>
             <div className="w-[1px] h-8 bg-gray-300"></div>
@@ -873,8 +873,8 @@ function ContactSection() {
         </div>
       </div>
 
-      <div className="max-w-[1440px] mx-auto px-8 md:px-12 py-16 md:py-28">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-16">
+      <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 py-16 md:py-28">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-16">
           <div className="md:col-span-5">
             <h2 className="text-[clamp(1.75rem,3.5vw,3.5rem)] leading-[1.1] tracking-[-0.02em]">
               <span className="font-light text-[#333333]">Hablemos de</span><br />
@@ -925,7 +925,7 @@ function ContactSection() {
 export function Footer() {
   return (
     <footer className="bg-white text-black py-20 md:py-28 border-t border-gray-100">
-      <div className="max-w-[1440px] mx-auto px-8 md:px-12">
+      <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 mb-20">
           <div className="md:col-span-5">
             <p className="text-[clamp(1.5rem,2.5vw,2.5rem)] tracking-tight leading-tight">
@@ -999,7 +999,7 @@ export function Footer() {
 export function Hero() {
   return (
     <section className="relative w-full overflow-hidden bg-white">
-      <div className="relative w-full max-w-[1440px] mx-auto px-8 md:px-12 py-24 md:py-36">
+      <div className="relative w-full max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 py-24 md:py-36">
         {/* ── Hero solo texto — fondo blanco, sin imágenes ── */}
         <div className="max-w-4xl mx-auto md:mx-0 text-center md:text-left">
           {/* Título de marca dominante — "QUIERAS" en naranja */}

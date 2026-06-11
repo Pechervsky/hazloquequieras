@@ -41,7 +41,7 @@ function NarrativasVisualesPage() {
       <div className="h-20" /> {/* Spacer for fixed navbar */}
 
       {/* ── Breadcrumb ── */}
-      <div className="max-w-[1440px] mx-auto px-8 md:px-12 pt-10">
+      <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 pt-10">
         <div className="flex items-center gap-2 text-[12px] tracking-[0.08em] text-black/40 font-medium uppercase">
           <Link to="/cursos" className="hover:text-[#e07328] transition-colors duration-300">
             Formación
@@ -54,7 +54,7 @@ function NarrativasVisualesPage() {
       </div>
 
       {/* ── Hero ── */}
-      <section className="max-w-[1440px] mx-auto px-8 md:px-12 pt-8 md:pt-12 pb-16 md:pb-24">
+      <section className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 pt-8 md:pt-12 pb-16 md:pb-24">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
           
           {/* Left column — Title & details */}
@@ -159,7 +159,7 @@ function NarrativasVisualesPage() {
 
       {/* ── Propuesta General (P.01) ── */}
       <section className="bg-white border-b border-[#e07328]/10">
-        <div className="max-w-[1440px] mx-auto px-8 md:px-12 py-16 md:py-24">
+        <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 py-16 md:py-24">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
             <div className="lg:col-span-4">
               <div className="flex items-center gap-5 sticky top-28">
@@ -188,7 +188,7 @@ function NarrativasVisualesPage() {
       </section>
 
       {/* ── Objetivos & Destinatarios ── */}
-      <section className="max-w-[1440px] mx-auto px-8 md:px-12 py-16 md:py-24">
+      <section className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 py-16 md:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-24">
           
           {/* Objetivos */}
@@ -266,7 +266,7 @@ function NarrativasVisualesPage() {
 
       {/* ── Contenidos / Timeline 3 etapas (Dark Section) ── */}
       <section className="bg-neutral-950 text-white border-y border-[#e07328]/10">
-        <div className="max-w-[1440px] mx-auto px-8 md:px-12 py-20 md:py-28">
+        <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 py-20 md:py-28">
           
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16 md:mb-20">
             <div>
@@ -404,7 +404,7 @@ function NarrativasVisualesPage() {
       </section>
 
       {/* ── Qué incluye la cursada ── */}
-      <section className="max-w-[1440px] mx-auto px-8 md:px-12 py-16 md:py-24">
+      <section className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 py-16 md:py-24">
         <p className="text-[12px] font-semibold tracking-[0.3em] uppercase text-[#e07328] mb-8">
           La cursada incluye
         </p>
@@ -435,7 +435,7 @@ function NarrativasVisualesPage() {
 
       {/* ── Inscripción / Pricing Interactive Card ── */}
       <section id="inscripcion" className="bg-white border-y border-[#e07328]/10">
-        <div className="max-w-[1440px] mx-auto px-8 md:px-12 py-16 md:py-24">
+        <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 py-16 md:py-24">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
             
             <div className="lg:col-span-5">
@@ -596,8 +596,8 @@ function NarrativasVisualesPage() {
       </section>
 
       {/* ── Otros programas ── */}
-      <section className="max-w-[1440px] mx-auto px-8 md:px-12 py-16 md:py-24 bg-white">
-        <div className="flex items-end justify-between mb-10">
+      <section className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 py-16 md:py-24 bg-white">
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-end justify-between mb-10">
           <h2 className="text-[clamp(1.4rem,3vw,2.2rem)] font-extrabold tracking-[-0.01em] text-black">
             Seguí explorando
           </h2>
