@@ -26,7 +26,7 @@ function CursosPage() {
       <div className="h-20" /> {/* Spacer for fixed navbar */}
 
       {/* ── Hero ── */}
-      <section id="formacion-hero" className="max-w-[1440px] mx-auto px-8 md:px-12 pt-16 md:pt-24 pb-12 md:pb-16">
+      <section id="formacion-hero" className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 pt-16 md:pt-24 pb-12 md:pb-16">
         <p className="text-[12px] font-semibold tracking-[0.3em] uppercase text-[#e07328] mb-6">
           Formación &middot; 2.ª Edición Latam
         </p>
@@ -55,7 +55,7 @@ function CursosPage() {
 
       {/* ── Section header band ── */}
       <div className="w-full bg-white border-b border-[#e07328]/10 py-14">
-        <div className="max-w-[1440px] mx-auto px-8 md:px-12 flex flex-col md:flex-row md:items-center justify-between gap-6">
+        <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 flex flex-col md:flex-row md:items-center justify-between gap-6">
           <div className="flex items-center gap-6">
             <span className="text-[14px] font-black tracking-[0.25em] text-[#e07328]">01</span>
             <div className="w-[1px] h-8 bg-gray-300" />
@@ -71,7 +71,7 @@ function CursosPage() {
 
       {/* ── Course grid ── */}
       <section className="bg-white py-16 md:py-24 border-b border-[#e07328]/10">
-        <div className="max-w-[1440px] mx-auto px-8 md:px-12">
+        <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12">
           
           {/* Featured course */}
           <Link
@@ -347,7 +347,7 @@ function CursosPage() {
 
       {/* ── CTA strip ── */}
       <section id="cursos-contacto-cta" className="bg-neutral-950 text-white border-b border-[#e07328]/10">
-        <div className="max-w-[1440px] mx-auto px-8 md:px-12 py-20 md:py-28 text-center space-y-6">
+        <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 py-20 md:py-28 text-center space-y-6">
           <p className="text-[12px] font-semibold tracking-[0.3em] uppercase text-[#e07328]">
             ¿No sabés por dónde empezar?
           </p>
