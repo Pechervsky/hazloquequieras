@@ -4,6 +4,13 @@
 
 @custom-variant dark (&:is(.dark *));
 
+html,
+body {
+  /* Prevent any element from causing sideways scroll on mobile */
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 body {
   @apply m-0;
   font-family: 'Avenir Next', 'Avenir', 'Avenir Next LT Pro', 'Nunito Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
@@ -14,6 +21,15 @@ body {
   color: #000000;
   min-height: 100vh;
   position: relative;
+}
+
+/* Media never overflows its container on small screens.
+   (Height is left untouched so aspect-ratio image boxes keep working,
+   and marquees keep their intentional overflow inside overflow-hidden parents.) */
+img,
+svg,
+video {
+  max-width: 100%;
 }
 
 /* Avenir Next heading typography — varied weight range */
