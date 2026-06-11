@@ -145,9 +145,9 @@ function SeparadorMirar() {
   return (
     <section className="py-20 md:py-28 bg-white border-t border-[#111111]/10">
       <div className="max-w-[1440px] mx-auto px-8 md:px-12">
-        <div className="flex items-center gap-6 md:gap-10">
+        <div className="flex items-center gap-4 sm:gap-6 md:gap-10">
           <span className="h-[2px] flex-1 bg-[#111111]" />
-          <h2 className="text-center text-[clamp(1.1rem,3vw,2.25rem)] font-extrabold uppercase tracking-[0.08em] leading-tight text-[#111111] whitespace-nowrap">
+          <h2 className="text-center text-[clamp(0.95rem,3vw,2.25rem)] font-extrabold uppercase tracking-[0.06em] sm:tracking-[0.08em] leading-tight text-[#111111]">
             MIRAR DIFERENTE <span className="text-[#e07328]">·</span> CREAR SIN LÍMITES
           </h2>
           <span className="h-[2px] flex-1 bg-[#111111]" />
@@ -168,7 +168,7 @@ function Services() {
           <div className="flex items-center gap-6">
             <span className="text-[14px] font-black tracking-[0.25em] text-[#e07328]">02</span>
             <div className="w-[1px] h-8 bg-gray-300"></div>
-            <h2 className="text-3xl md:text-4xl font-extrabold tracking-[0.15em] text-[#111111] uppercase">SERVICIOS DE PRODUCCIÓN</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-[0.08em] sm:tracking-[0.15em] text-[#111111] uppercase">SERVICIOS DE PRODUCCIÓN</h2>
           </div>
           <span className="text-[12px] tracking-[0.3em] text-[#333333] font-bold uppercase">Producción Audiovisual &amp; IA Generativa</span>
         </div>
@@ -309,7 +309,7 @@ function GaleriaTrabajos() {
         </div>
 
         {/* ── Grilla — 3 columnas, gap 4px, proporción 3:2, sin bordes redondeados ── */}
-        <div className="grid grid-cols-3 gap-[4px]">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-[4px]">
           {trabajos.map((img, i) => (
             <div key={i} className="aspect-[3/2] overflow-hidden bg-white">
               <img
@@ -349,7 +349,7 @@ function Formacion() {
           <div className="flex items-center gap-6">
             <span className="text-[14px] font-black tracking-[0.25em] text-[#e07328]">01</span>
             <div className="w-[1px] h-8 bg-gray-300"></div>
-            <h2 className="text-3xl md:text-4xl font-extrabold tracking-[0.15em] text-black uppercase">FORMACIÓN</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-[0.15em] text-black uppercase">FORMACIÓN</h2>
           </div>
           <span className="text-[12px] tracking-[0.3em] text-[#333333] font-bold uppercase">Programas, Talleres &amp; Workshops</span>
         </div>
@@ -838,7 +838,7 @@ function Galeria() {
         </div>
 
         {/* ── Grilla — 3 columnas, gap 4px, proporción 3:2, sin bordes redondeados ── */}
-        <div className="grid grid-cols-3 gap-[4px]">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-[4px]">
           {creaciones.map((img, i) => (
             <div key={i} className="aspect-[3/2] overflow-hidden bg-white">
               <img
@@ -867,7 +867,7 @@ function ContactSection() {
           <div className="flex items-center gap-6">
             <span className="text-[14px] font-black tracking-[0.25em] text-[#e07328]">03</span>
             <div className="w-[1px] h-8 bg-gray-300"></div>
-            <h2 className="text-3xl md:text-4xl font-extrabold tracking-[0.15em] text-black uppercase">CONTACTO</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-[0.15em] text-black uppercase">CONTACTO</h2>
           </div>
           <span className="text-[12px] tracking-[0.3em] text-[#333333] font-bold uppercase">Consultas, Presupuestos &amp; Gira 2026</span>
         </div>
@@ -1001,25 +1001,25 @@ export function Hero() {
     <section className="relative w-full overflow-hidden bg-white">
       <div className="relative w-full max-w-[1440px] mx-auto px-8 md:px-12 py-24 md:py-36">
         {/* ── Hero solo texto — fondo blanco, sin imágenes ── */}
-        <div className="max-w-4xl">
+        <div className="max-w-4xl text-center md:text-left">
           {/* Título de marca dominante — "QUIERAS" en naranja */}
-          <h1 className="font-sans font-extrabold tracking-[-0.03em] leading-[0.95] text-[clamp(3rem,8.5vw,7rem)] text-[#111111]">
+          <h1 className="font-sans font-extrabold tracking-[-0.03em] leading-[0.95] text-[clamp(2.5rem,8.5vw,7rem)] text-[#111111]">
             HAZ LO QUE <span className="text-[#e07328]">QUIERAS</span>
           </h1>
 
           {/* Frase secundaria — legible, gris oscuro */}
-          <p className="mt-8 font-sans font-medium text-[#333333] leading-[1.25] tracking-[-0.01em] text-[clamp(1.25rem,2.6vw,1.9rem)] max-w-xl">
+          <p className="mt-8 font-sans font-medium text-[#333333] leading-[1.25] tracking-[-0.01em] text-[clamp(1.25rem,2.6vw,1.9rem)] max-w-xl mx-auto md:mx-0">
             Imágenes que aún no existen.
             <span className="block">Hasta que las describes.</span>
           </p>
 
           {/* Acciones — Producción · Formación · Próximo Workshop */}
-          <div className="mt-10 flex flex-wrap items-center gap-4">
+          <div className="mt-10 flex flex-col sm:flex-row sm:flex-wrap items-stretch sm:items-center justify-center md:justify-start gap-4">
             {/* Botón 1 — Producción (naranja) */}
             <Link
               to="/"
               hash="servicios"
-              className="inline-flex items-center px-8 py-4 bg-[#e07328] text-white text-[12px] font-bold tracking-[0.12em] uppercase hover:bg-[#c86520] transition-colors duration-300 cursor-pointer"
+              className="inline-flex items-center justify-center w-full sm:w-auto px-8 py-4 bg-[#e07328] text-white text-[12px] font-bold tracking-[0.12em] uppercase hover:bg-[#c86520] transition-colors duration-300 cursor-pointer"
             >
               Producción
             </Link>
@@ -1028,7 +1028,7 @@ export function Hero() {
             <Link
               to="/"
               hash="formacion"
-              className="inline-flex items-center px-8 py-4 border border-neutral-300 text-[#111111] text-[12px] font-bold tracking-[0.12em] uppercase hover:border-[#e07328] hover:text-[#e07328] transition-colors duration-300 cursor-pointer"
+              className="inline-flex items-center justify-center w-full sm:w-auto px-8 py-4 border border-neutral-300 text-[#111111] text-[12px] font-bold tracking-[0.12em] uppercase hover:border-[#e07328] hover:text-[#e07328] transition-colors duration-300 cursor-pointer"
             >
               Formación
             </Link>
@@ -1038,7 +1038,7 @@ export function Hero() {
               href="https://instagram.com/facu_peche"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center px-8 py-4 border border-neutral-300 text-[#111111] text-[12px] font-bold tracking-[0.12em] uppercase hover:border-[#e07328] hover:text-[#e07328] transition-colors duration-300 cursor-pointer"
+              className="inline-flex items-center justify-center w-full sm:w-auto px-8 py-4 border border-neutral-300 text-[#111111] text-[12px] font-bold tracking-[0.12em] uppercase hover:border-[#e07328] hover:text-[#e07328] transition-colors duration-300 cursor-pointer"
             >
               Próximo Workshop
             </a>

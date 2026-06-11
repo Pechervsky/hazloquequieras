@@ -59,7 +59,7 @@ function CursosPage() {
           <div className="flex items-center gap-6">
             <span className="text-[14px] font-black tracking-[0.25em] text-[#e07328]">01</span>
             <div className="w-[1px] h-8 bg-gray-300" />
-            <h2 className="text-3xl md:text-4xl font-extrabold tracking-[0.12em] text-black uppercase">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-[0.12em] text-black uppercase">
               Programas
             </h2>
           </div>
