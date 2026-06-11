@@ -445,7 +445,7 @@ function Formacion() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
               
               {/* Mentorías Personalizadas Card (Próximo Workshop) */}
-              <div className="bg-white border border-neutral-200/80 overflow-hidden shadow-xs hover:shadow-md transition-all duration-300 flex flex-col h-full">
+              <div id="workshop" className="bg-white border border-neutral-200/80 overflow-hidden shadow-xs hover:shadow-md transition-all duration-300 flex flex-col h-full scroll-mt-32">
                 <div className="aspect-[16/10] overflow-hidden bg-white flex items-center justify-center border-b border-neutral-100">
                   <img
                     src="/plan-profesional.jpeg"
@@ -1013,35 +1013,34 @@ export function Hero() {
             <span className="block">Hasta que las describes.</span>
           </p>
 
-          {/* Acciones — Producción · Formación · Próximo Workshop */}
+          {/* Acciones — Formación · Próximo Workshop · Servicios */}
           <div className="mt-10 flex flex-col sm:flex-row sm:flex-wrap items-stretch sm:items-center justify-center md:justify-start gap-4">
-            {/* Botón 1 — Producción (naranja) */}
-            <Link
-              to="/"
-              hash="servicios"
-              className="inline-flex items-center justify-center w-full sm:w-auto px-8 py-4 bg-[#e07328] text-white text-[12px] font-bold tracking-[0.12em] uppercase hover:bg-[#c86520] transition-colors duration-300 cursor-pointer"
-            >
-              Producción
-            </Link>
-
-            {/* Botón 2 — Formación (oscuro/gris) */}
+            {/* Botón 1 — Formación */}
             <Link
               to="/"
               hash="formacion"
-              className="inline-flex items-center justify-center w-full sm:w-auto px-8 py-4 border border-neutral-300 text-[#111111] text-[12px] font-bold tracking-[0.12em] uppercase hover:border-[#e07328] hover:text-[#e07328] transition-colors duration-300 cursor-pointer"
+              className="inline-flex items-center justify-center w-full sm:w-auto px-8 py-4 bg-[#e07328] text-white text-[12px] font-bold tracking-[0.12em] uppercase hover:bg-[#c86520] transition-colors duration-300 cursor-pointer"
             >
               Formación
             </Link>
 
-            {/* Botón 3 — Próximo Workshop (oscuro) */}
-            <a
-              href="https://instagram.com/facu_peche"
-              target="_blank"
-              rel="noopener noreferrer"
+            {/* Botón 2 — Próximo Workshop */}
+            <Link
+              to="/"
+              hash="workshop"
               className="inline-flex items-center justify-center w-full sm:w-auto px-8 py-4 border border-neutral-300 text-[#111111] text-[12px] font-bold tracking-[0.12em] uppercase hover:border-[#e07328] hover:text-[#e07328] transition-colors duration-300 cursor-pointer"
             >
               Próximo Workshop
-            </a>
+            </Link>
+
+            {/* Botón 3 — Servicios */}
+            <Link
+              to="/"
+              hash="servicios"
+              className="inline-flex items-center justify-center w-full sm:w-auto px-8 py-4 border border-neutral-300 text-[#111111] text-[12px] font-bold tracking-[0.12em] uppercase hover:border-[#e07328] hover:text-[#e07328] transition-colors duration-300 cursor-pointer"
+            >
+              Servicios
+            </Link>
           </div>
         </div>
       </div>
