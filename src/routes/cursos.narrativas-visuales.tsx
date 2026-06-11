@@ -72,10 +72,10 @@ function NarrativasVisualesPage() {
             </div>
 
             <h1 className="font-sans text-[clamp(2.4rem,5.5vw,4.6rem)] leading-[1.02] tracking-[-0.025em]">
-              <span className="font-light text-[#666]">Narrativas </span>
+              <span className="font-light text-[#333333]">Narrativas </span>
               <span className="font-extrabold text-black">visuales</span>
               <br />
-              <span className="font-light text-[#666]">y </span>
+              <span className="font-light text-[#333333]">y </span>
               <span className="font-extrabold text-[#e07328]">
                 expresión<span className="text-black">.</span>
               </span>
@@ -158,7 +158,7 @@ function NarrativasVisualesPage() {
       </div>
 
       {/* ── Propuesta General (P.01) ── */}
-      <section className="bg-[#fff8f4] border-b border-[#e07328]/10">
+      <section className="bg-white border-b border-[#e07328]/10">
         <div className="max-w-[1440px] mx-auto px-8 md:px-12 py-16 md:py-24">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
             <div className="lg:col-span-4">
@@ -242,7 +242,7 @@ function NarrativasVisualesPage() {
               ].map((item, i) => (
                 <div
                   key={i}
-                  className="flex items-start gap-4 p-5 bg-[#fff8f4] rounded-xl border border-[#e07328]/10 shadow-xs hover:border-[#e07328]/35 transition-all duration-300"
+                  className="flex items-start gap-4 p-5 bg-white rounded-xl border border-[#e07328]/10 shadow-xs hover:border-[#e07328]/35 transition-all duration-300"
                 >
                   <span className="text-[#e07328] text-lg leading-none mt-0.5">&rarr;</span>
                   <p className="text-[16px] leading-[1.6] text-neutral-800 font-light">
@@ -412,21 +412,21 @@ function NarrativasVisualesPage() {
           <div className="bg-white p-8 md:p-10 hover:bg-neutral-50/50 transition-colors duration-300">
             <p className="text-[40px] font-extrabold text-[#e07328] leading-none mb-4">01</p>
             <h4 className="text-[18px] font-bold text-black mb-2">Producción con narrativa</h4>
-            <p className="text-[15px] leading-[1.7] text-neutral-600 font-light">
+            <p className="text-[15px] leading-[1.7] text-[#333333] font-light">
               Una pieza propia desarrollada de principio a fin con acompañamiento.
             </p>
           </div>
           <div className="bg-white p-8 md:p-10 hover:bg-neutral-50/50 transition-colors duration-300">
             <p className="text-[40px] font-extrabold text-[#e07328] leading-none mb-4">02</p>
             <h4 className="text-[18px] font-bold text-black mb-2">Salida de campo</h4>
-            <p className="text-[15px] leading-[1.7] text-neutral-600 font-light">
+            <p className="text-[15px] leading-[1.7] text-[#333333] font-light">
               Jornada práctica para aplicar los recursos explorados en contexto real.
             </p>
           </div>
           <div className="bg-white p-8 md:p-10 hover:bg-neutral-50/50 transition-colors duration-300">
             <p className="text-[40px] font-extrabold text-[#e07328] leading-none mb-4">&infin;</p>
             <h4 className="text-[18px] font-bold text-black mb-2">Muestra colectiva final</h4>
-            <p className="text-[15px] leading-[1.7] text-neutral-600 font-light">
+            <p className="text-[15px] leading-[1.7] text-[#333333] font-light">
               Exhibición de la obra en la escuela, abierta a familiares y amigos.
             </p>
           </div>
@@ -434,7 +434,7 @@ function NarrativasVisualesPage() {
       </section>
 
       {/* ── Inscripción / Pricing Interactive Card ── */}
-      <section id="inscripcion" className="bg-[#fff0e5] border-y border-[#e07328]/10">
+      <section id="inscripcion" className="bg-white border-y border-[#e07328]/10">
         <div className="max-w-[1440px] mx-auto px-8 md:px-12 py-16 md:py-24">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
             
@@ -447,7 +447,7 @@ function NarrativasVisualesPage() {
                 </h2>
               </div>
               <h3 className="text-[clamp(1.8rem,3.5vw,2.8rem)] leading-[1.1] tracking-[-0.02em] mb-6">
-                <span className="font-light text-[#666]">Reservá tu lugar en la </span>
+                <span className="font-light text-[#333333]">Reservá tu lugar en la </span>
                 <span className="font-extrabold text-black">2.ª edición.</span>
               </h3>
               <p className="text-[16px] leading-[1.85] text-neutral-700 font-light max-w-md mb-8">
@@ -457,7 +457,7 @@ function NarrativasVisualesPage() {
                 {['Presencial u online', 'Individual o grupal', 'Cupos limitados'].map((t) => (
                   <span
                     key={t}
-                    className="px-3.5 py-1.5 bg-white border border-black/8 text-neutral-600 text-[12px] font-medium rounded-full shadow-2xs"
+                    className="px-3.5 py-1.5 bg-white border border-black/8 text-[#333333] text-[12px] font-medium rounded-full shadow-2xs"
                   >
                     {t}
                   </span>
@@ -503,7 +503,7 @@ function NarrativasVisualesPage() {
                     />
                     <div className="flex-1">
                       <p className="text-[15px] font-bold text-black">Promo 1 &middot; Cuotas sin interés</p>
-                      <p className="text-[13px] text-neutral-500 font-light">3 cuotas sin interés</p>
+                      <p className="text-[13px] text-[#333333] font-light">3 cuotas sin interés</p>
                     </div>
                     <p className="text-[18px] font-extrabold text-black">$560.000</p>
                   </div>
@@ -522,7 +522,7 @@ function NarrativasVisualesPage() {
                     />
                     <div className="flex-1">
                       <p className="text-[15px] font-bold text-black">Promo 2 &middot; Cupón MOTI20OFF</p>
-                      <p className="text-[13px] text-neutral-500 font-light">20% OFF abonando en 1 pago</p>
+                      <p className="text-[13px] text-[#333333] font-light">20% OFF abonando en 1 pago</p>
                     </div>
                     <div className="text-right">
                       <p className="text-[13px] text-black/35 line-through font-light">$560.000</p>
@@ -577,13 +577,13 @@ function NarrativasVisualesPage() {
                     </a>
                   </div>
 
-                  <p className="text-center text-[13px] text-neutral-500 font-light">
+                  <p className="text-center text-[13px] text-[#333333] font-light">
                     <a href="https://wa.me/34645014166" target="_blank" rel="noopener noreferrer" className="text-[#e07328] font-semibold hover:underline">
                       ¿Necesitás consultar?
                     </a>{' '}
                     +34 645 014 166
                   </p>
-                  <p className="text-center text-[11px] text-neutral-400 font-light pt-1">
+                  <p className="text-center text-[11px] text-[#333333] font-light pt-1">
                     Ambas promociones incluyen un segundo curso 100% bonificado.
                   </p>
                 </div>
@@ -613,7 +613,7 @@ function NarrativasVisualesPage() {
           <Link to="/cursos" className="group block space-y-4">
             <div className="overflow-hidden rounded-xl bg-neutral-50 aspect-[16/11] border border-black/5 shadow-2xs">
               <img
-                src="/plan-chico-mano.png"
+                src="/galeria-nino-argentino.png"
                 alt="Introducción a la IA"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
