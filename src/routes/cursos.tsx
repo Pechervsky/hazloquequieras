@@ -31,10 +31,10 @@ function CursosPage() {
           Formación &middot; 2.ª Edición Latam
         </p>
         <h1 className="font-sans text-[clamp(2.4rem,6vw,5.5rem)] leading-[0.98] tracking-[-0.03em] max-w-5xl">
-          <span className="font-light text-[#666]">Dominá la </span>
+          <span className="font-light text-[#333333]">Dominá la </span>
           <span className="font-extrabold text-[#e07328]">IA generativa</span>
           <br />
-          <span className="font-light text-[#666]">y </span>
+          <span className="font-light text-[#333333]">y </span>
           <span className="font-extrabold text-black">reinventá tu carrera.</span>
         </h1>
         <p className="mt-9 text-[18px] md:text-[20px] leading-[1.8] max-w-2xl text-neutral-700 font-light">
@@ -54,7 +54,7 @@ function CursosPage() {
       </div>
 
       {/* ── Section header band ── */}
-      <div className="w-full bg-[#fff0e5] border-b border-[#e07328]/10 py-14">
+      <div className="w-full bg-white border-b border-[#e07328]/10 py-14">
         <div className="max-w-[1440px] mx-auto px-8 md:px-12 flex flex-col md:flex-row md:items-center justify-between gap-6">
           <div className="flex items-center gap-6">
             <span className="text-[14px] font-black tracking-[0.25em] text-[#e07328]">01</span>
@@ -63,14 +63,14 @@ function CursosPage() {
               Programas
             </h2>
           </div>
-          <span className="text-[12px] font-semibold tracking-[0.3em] uppercase text-gray-400">
+          <span className="text-[12px] font-semibold tracking-[0.3em] uppercase text-[#333333]">
             Recorridos de 3 meses &middot; Niveles 1 a 3
           </span>
         </div>
       </div>
 
       {/* ── Course grid ── */}
-      <section className="bg-[#fff8f4] py-16 md:py-24 border-b border-[#e07328]/10">
+      <section className="bg-white py-16 md:py-24 border-b border-[#e07328]/10">
         <div className="max-w-[1440px] mx-auto px-8 md:px-12">
           
           {/* Featured course */}
@@ -100,12 +100,12 @@ function CursosPage() {
                   <h3 className="text-[clamp(1.8rem,3vw,2.6rem)] font-extrabold leading-[1.05] tracking-[-0.02em] text-black mb-4 group-hover:text-[#e07328] transition-colors duration-300">
                     Narrativas Visuales y Expresión
                   </h3>
-                  <p className="text-[16px] leading-[1.8] text-neutral-600 font-light max-w-lg mb-8">
+                  <p className="text-[16px] leading-[1.8] text-[#333333] font-light max-w-lg mb-8">
                     Un recorrido en tres etapas —despertar, explorar y construir— para crear una obra visual propia, integrando fotografía, escritura, archivo personal e IA.
                   </p>
                 </div>
                 <div>
-                  <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-[13px] text-neutral-500 font-medium pb-6 border-b border-black/8">
+                  <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-[13px] text-[#333333] font-medium pb-6 border-b border-black/8">
                     <span className="flex items-center gap-2">
                       <span className="w-1.5 h-1.5 rounded-full bg-[#e07328]" />
                       Presencial u online
@@ -121,7 +121,7 @@ function CursosPage() {
                   </div>
                   <div className="flex items-center justify-between pt-6">
                     <div>
-                      <span className="text-[12px] text-neutral-400 font-light">Desde</span>
+                      <span className="text-[12px] text-[#333333] font-light">Desde</span>
                       <p className="text-[22px] font-extrabold text-black leading-none">$448.000</p>
                     </div>
                     <span className="inline-flex items-center gap-2 text-[13px] font-bold tracking-[0.08em] uppercase text-[#e07328] group-hover:gap-3 transition-all duration-300">
@@ -143,7 +143,7 @@ function CursosPage() {
             >
               <div className="relative overflow-hidden aspect-[16/11] bg-neutral-50">
                 <img
-                  src="/plan-chico-mano.png"
+                  src="/galeria-nino-argentino.png"
                   alt="Introducción a la IA Generativa"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />
@@ -158,11 +158,11 @@ function CursosPage() {
                 <h4 className="text-[20px] font-extrabold leading-tight text-black mb-2.5 group-hover:text-[#e07328] transition-colors duration-300">
                   Introducción a la IA Generativa
                 </h4>
-                <p className="text-[14px] leading-[1.7] text-neutral-500 font-light flex-1">
+                <p className="text-[14px] leading-[1.7] text-[#333333] font-light flex-1">
                   Un primer acercamiento 100% práctico con visión fotográfica.
                 </p>
                 <div className="mt-6 pt-5 border-t border-black/8 flex items-center justify-between">
-                  <span className="text-[12px] text-neutral-400 font-medium">Presencial &middot; 12 hs</span>
+                  <span className="text-[12px] text-[#333333] font-medium">Presencial &middot; 12 hs</span>
                   <span className="text-[12px] font-bold tracking-[0.06em] uppercase text-[#e07328] group-hover:translate-x-1 transition-all duration-300 inline-flex items-center gap-1">
                     Ver + &rarr;
                   </span>
@@ -192,11 +192,11 @@ function CursosPage() {
                 <h4 className="text-[20px] font-extrabold leading-tight text-black mb-2.5 group-hover:text-[#e07328] transition-colors duration-300">
                   Dirección de Fotografía con IA
                 </h4>
-                <p className="text-[14px] leading-[1.7] text-neutral-500 font-light flex-1">
+                <p className="text-[14px] leading-[1.7] text-[#333333] font-light flex-1">
                   Control exacto sobre composición, luz y narrativa en movimiento.
                 </p>
                 <div className="mt-6 pt-5 border-t border-black/8 flex items-center justify-between">
-                  <span className="text-[12px] text-neutral-400 font-medium">Presencial &middot; 12 hs</span>
+                  <span className="text-[12px] text-[#333333] font-medium">Presencial &middot; 12 hs</span>
                   <span className="text-[12px] font-bold tracking-[0.06em] uppercase text-[#e07328] group-hover:translate-x-1 transition-all duration-300 inline-flex items-center gap-1">
                     Ver + &rarr;
                   </span>
@@ -226,11 +226,11 @@ function CursosPage() {
                 <h4 className="text-[20px] font-extrabold leading-tight text-black mb-2.5 group-hover:text-[#e07328] transition-colors duration-300">
                   Especialización Profesional
                 </h4>
-                <p className="text-[14px] leading-[1.7] text-neutral-500 font-light flex-1">
+                <p className="text-[14px] leading-[1.7] text-[#333333] font-light flex-1">
                   Construcción de un ecosistema completo de producción a gran escala.
                 </p>
                 <div className="mt-6 pt-5 border-t border-black/8 flex items-center justify-between">
-                  <span className="text-[12px] text-neutral-400 font-medium">Presencial &middot; 12 hs</span>
+                  <span className="text-[12px] text-[#333333] font-medium">Presencial &middot; 12 hs</span>
                   <span className="text-[12px] font-bold tracking-[0.06em] uppercase text-[#e07328] group-hover:translate-x-1 transition-all duration-300 inline-flex items-center gap-1">
                     Ver + &rarr;
                   </span>
@@ -260,11 +260,11 @@ function CursosPage() {
                 <h4 className="text-[20px] font-extrabold leading-tight text-black mb-2.5 group-hover:text-[#e07328] transition-colors duration-300">
                   WS Narrativas Visuales
                 </h4>
-                <p className="text-[14px] leading-[1.7] text-neutral-500 font-light flex-1">
+                <p className="text-[14px] leading-[1.7] text-[#333333] font-light flex-1">
                   Intensivo de storytelling visual: serie, ensayo y bitácora de proceso.
                 </p>
                 <div className="mt-6 pt-5 border-t border-black/8 flex items-center justify-between">
-                  <span className="text-[12px] text-neutral-400 font-medium">Presencial &middot; 12 hs</span>
+                  <span className="text-[12px] text-[#333333] font-medium">Presencial &middot; 12 hs</span>
                   <span className="text-[12px] font-bold tracking-[0.06em] uppercase text-[#e07328] group-hover:translate-x-1 transition-all duration-300 inline-flex items-center gap-1">
                     Ver + &rarr;
                   </span>
@@ -294,11 +294,11 @@ function CursosPage() {
                 <h4 className="text-[20px] font-extrabold leading-tight text-black mb-2.5 group-hover:text-[#e07328] transition-colors duration-300">
                   Laboratorio AI
                 </h4>
-                <p className="text-[14px] leading-[1.7] text-neutral-500 font-light flex-1">
+                <p className="text-[14px] leading-[1.7] text-[#333333] font-light flex-1">
                   Experimentación con modelos de imagen y video de última generación.
                 </p>
                 <div className="mt-6 pt-5 border-t border-black/8 flex items-center justify-between">
-                  <span className="text-[12px] text-neutral-400 font-medium">Presencial &middot; 12 hs</span>
+                  <span className="text-[12px] text-[#333333] font-medium">Presencial &middot; 12 hs</span>
                   <span className="text-[12px] font-bold tracking-[0.06em] uppercase text-[#e07328] group-hover:translate-x-1 transition-all duration-300 inline-flex items-center gap-1">
                     Ver + &rarr;
                   </span>
