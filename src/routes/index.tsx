@@ -999,6 +999,18 @@ export function Footer() {
 export function Hero() {
   return (
     <section className="relative w-full overflow-hidden bg-white">
+      {/* ── Video full-bleed — de lado a lado, sin recortes (object-contain) ── */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        poster="/hero-mama-bebe.jpg"
+        className="block w-full h-auto object-contain"
+      >
+        <source src="/hero-video.mp4" type="video/mp4" />
+      </video>
+
       <div className="relative w-full max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 py-24 md:py-36">
         {/* ── Hero solo texto — fondo blanco, sin imágenes ── */}
         <div className="max-w-4xl mx-auto md:mx-0 text-center md:text-left">
