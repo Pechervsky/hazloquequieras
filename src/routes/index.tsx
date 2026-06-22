@@ -645,6 +645,33 @@ function Formacion() {
               </div>
 
             </div>
+
+            {/* ── WhatsApp CTA — debajo de los programas de formación ── */}
+            <div className="mt-12 bg-white border border-[#25D366]/25 p-8 md:p-10 shadow-sm flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+              <div className="space-y-2">
+                <p className="text-[12px] tracking-[0.1em] text-[#333333] font-medium flex items-center gap-2 uppercase">
+                  <span className="w-2 h-2 rounded-full bg-[#25D366] inline-block animate-pulse"></span>
+                  ¿Dudas sobre qué programa elegir?
+                </p>
+                <h5 className="text-xl md:text-2xl font-bold text-black">
+                  Escribinos por WhatsApp y te asesoramos
+                </h5>
+                <p className="text-[14px] text-[#333333] leading-[1.7] font-light max-w-xl">
+                  Te ayudamos a elegir el nivel ideal según tus objetivos. Respuesta rápida y sin compromiso.
+                </p>
+              </div>
+              <a
+                href="https://wa.me/34645014166"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2.5 px-6 py-4 bg-[#25D366] text-white text-[14px] font-bold tracking-[0.05em] hover:bg-[#20ba5a] transition-all duration-300 shadow-sm uppercase text-center flex-shrink-0 w-full md:w-auto"
+              >
+                <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.513 2.262 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.739-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.625 1.451 5.403.002 9.803-4.381 9.805-9.771.002-2.612-1.012-5.066-2.857-6.912C16.356 2.079 13.907.822 11.3.822 5.899.822 1.5 5.205 1.497 10.593c-.001 1.516.418 3.001 1.21 4.316l-.994 3.633 3.737-.978zm11.724-4.55c-.262-.13-1.554-.767-1.793-.852-.24-.087-.413-.13-.588.13-.175.26-.677.852-.83 1.02-.152.172-.306.193-.568.063-.261-.13-1.103-.407-2.102-1.298-.778-.694-1.303-1.552-1.455-1.813-.153-.262-.017-.404.114-.533.118-.117.262-.305.393-.457.13-.153.175-.261.262-.435.088-.174.044-.326-.021-.456-.066-.13-.588-1.416-.807-1.943-.213-.512-.446-.441-.609-.449-.158-.008-.34-.01-.522-.01s-.48.067-.73.34c-.25.27-1.011.987-1.011 2.404s.718 2.787.818 2.92c.1.133 1.411 2.155 3.418 3.021.478.206.85.33 1.142.423.481.152.919.13 1.265.067.385-.069 1.18-.483 1.346-.949.166-.465.166-.864.117-.949-.049-.085-.18-.13-.441-.26z" />
+                </svg>
+                Escribir por WhatsApp
+              </a>
+            </div>
           </div>
 
           {/* ── Corporate Spotlight Section (CREA con IA) ── */}
