@@ -103,6 +103,27 @@ code {
   --color-orange: #e07328;
   --color-orange-light: #f58c3e;
   --color-orange-soft: #f8a867;
+  /* Make Tailwind's `font-sans` utility resolve to Avenir Next so the entire
+     project (including elements that use `font-sans`, e.g. the hero title) uses it. */
+  --font-sans: 'Avenir Next', 'Avenir', 'Avenir Next LT Pro', 'Nunito Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+/* ── Avenir Next weight refinement ──────────────────────────────────────────
+   Soften the heavier weights so bold text reads finer, keeping the visual
+   hierarchy on weight alone (no color/size/layout changes):
+   main titles → 700 (Bold), former bold subtitles/labels → 600 (SemiBold). */
+.font-black,
+.font-extrabold {
+  font-weight: 700;
+}
+
+.font-bold {
+  font-weight: 600;
+}
+
+strong,
+b {
+  font-weight: 600;
 }
 
 @layer base {

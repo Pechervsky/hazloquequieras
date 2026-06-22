@@ -294,21 +294,39 @@ function GaleriaTrabajos() {
     { src: '/servicios-2.jpeg', alt: 'Soluciones audiovisuales con IA' },
   ]
 
+  const featured = trabajos[0]
+
   return (
     <section className="relative w-full overflow-hidden bg-white border-t border-[#e07328]/10">
-      <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 py-16 md:py-28">
+      <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 py-20 md:py-32">
 
-        {/* ── Encabezado ── */}
-        <div className="mb-10">
-          <span className="text-[12px] font-semibold tracking-[0.25em] uppercase text-[#e07328]">
+        {/* ── Encabezado — jerarquía suave, sin negritas agresivas ── */}
+        <div className="mb-10 text-center">
+          <span className="text-[12px] font-medium tracking-[0.25em] uppercase text-[#e07328]">
             Portfolio
           </span>
-          <h2 className="text-2xl md:text-3xl font-extrabold text-[#111111] mt-2">
+          <h2 className="text-2xl md:text-3xl font-medium text-[#111111] mt-3">
             Producción para clientes
           </h2>
+
+          {/* ── Explicación de ahorro ── */}
+          <p className="text-[16px] md:text-[18px] font-normal text-[#666666] leading-[1.6] max-w-[800px] mx-auto mt-6">
+            Reducimos costes de producción hasta un 70% con IA generativa,
+            sin sacrificar calidad visual. Menos tiempo, menos recursos,
+            mismos resultados profesionales.
+          </p>
         </div>
 
-        {/* ── Grilla — 3 columnas, gap 4px, proporción 3:2, sin bordes redondeados ── */}
+        {/* ── Imagen destacada — Coca-Cola, centrada, sin recortes ── */}
+        <div className="w-full md:w-4/5 mx-auto mb-12 overflow-hidden bg-white">
+          <img
+            src={featured.src}
+            alt={featured.alt}
+            className="w-full h-auto object-contain"
+          />
+        </div>
+
+        {/* ── Grilla — 3x3 (2 columnas en móvil), gap 4px, mismo orden ── */}
         <div className="grid grid-cols-2 md:grid-cols-3 gap-[4px]">
           {trabajos.map((img, i) => (
             <div key={i} className="aspect-[3/2] overflow-hidden bg-white">
