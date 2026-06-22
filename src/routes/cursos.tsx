@@ -27,12 +27,12 @@ function CursosPage() {
 
       {/* ── Hero ── */}
       <section id="formacion-hero" className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 pt-16 md:pt-24 pb-12 md:pb-16">
-        <p className="text-[12px] font-semibold tracking-[0.3em] uppercase text-[#e07328] mb-6">
+        <p className="text-[12px] font-semibold tracking-[0.3em] uppercase text-[#2872e0] mb-6">
           Formación &middot; 2.ª Edición Latam
         </p>
         <h1 className="font-sans text-[clamp(2.4rem,6vw,5.5rem)] leading-[0.98] tracking-[-0.03em] max-w-5xl">
           <span className="font-light text-[#333333]">Dominá la </span>
-          <span className="font-extrabold text-[#e07328]">IA generativa</span>
+          <span className="font-extrabold text-[#2872e0]">IA generativa</span>
           <br />
           <span className="font-light text-[#333333]">y </span>
           <span className="font-extrabold text-black">reinventá tu carrera.</span>
@@ -54,10 +54,10 @@ function CursosPage() {
       </div>
 
       {/* ── Section header band ── */}
-      <div className="w-full bg-white border-b border-[#e07328]/10 py-14">
+      <div className="w-full bg-white border-b border-[#2872e0]/10 py-14">
         <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 flex flex-col md:flex-row md:items-center justify-between gap-6">
           <div className="flex items-center gap-6">
-            <span className="text-[14px] font-black tracking-[0.25em] text-[#e07328]">01</span>
+            <span className="text-[14px] font-black tracking-[0.25em] text-[#2872e0]">01</span>
             <div className="w-[1px] h-8 bg-gray-300" />
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-[0.08em] sm:tracking-[0.12em] text-black uppercase">
               Programas
@@ -70,7 +70,7 @@ function CursosPage() {
       </div>
 
       {/* ── Course grid ── */}
-      <section className="bg-white py-16 md:py-24 border-b border-[#e07328]/10">
+      <section className="bg-white py-16 md:py-24 border-b border-[#2872e0]/10">
         <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12">
           
           {/* Featured course */}
@@ -85,19 +85,19 @@ function CursosPage() {
                   alt="Narrativas Visuales y Expresión"
                   className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-700"
                 />
-                <span className="absolute top-5 left-5 px-3.5 py-1.5 bg-[#e07328] text-white text-[11px] font-bold tracking-[0.15em] uppercase rounded-full">
+                <span className="absolute top-5 left-5 px-3.5 py-1.5 bg-[#2872e0] text-white text-[11px] font-bold tracking-[0.15em] uppercase rounded-full">
                   Destacado
                 </span>
               </div>
               <div className="p-8 md:p-12 flex flex-col justify-between">
                 <div>
                   <div className="flex flex-wrap items-center gap-2 mb-5 text-[12px] font-semibold tracking-[0.1em] text-black/55">
-                    <span className="text-[#e07328]">⬗</span>
+                    <span className="text-[#2872e0]">⬗</span>
                     <span>Programa</span>
                     <span className="text-black/20">&middot;</span>
                     <span>Expresión</span>
                   </div>
-                  <h3 className="text-[clamp(1.8rem,3vw,2.6rem)] font-extrabold leading-[1.05] tracking-[-0.02em] text-black mb-4 group-hover:text-[#e07328] transition-colors duration-300">
+                  <h3 className="text-[clamp(1.8rem,3vw,2.6rem)] font-extrabold leading-[1.05] tracking-[-0.02em] text-black mb-4 group-hover:text-[#2872e0] transition-colors duration-300">
                     Narrativas Visuales y Expresión
                   </h3>
                   <p className="text-[16px] leading-[1.8] text-[#333333] font-light max-w-lg mb-8">
@@ -107,15 +107,15 @@ function CursosPage() {
                 <div>
                   <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-[13px] text-[#333333] font-medium pb-6 border-b border-black/8">
                     <span className="flex items-center gap-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-[#e07328]" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#2872e0]" />
                       Presencial u online
                     </span>
                     <span className="flex items-center gap-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-[#e07328]" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#2872e0]" />
                       3 meses &middot; 12 clases
                     </span>
                     <span className="flex items-center gap-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-[#e07328]" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#2872e0]" />
                       Nivel intermedio
                     </span>
                   </div>
@@ -124,7 +124,7 @@ function CursosPage() {
                       <span className="text-[12px] text-[#333333] font-light">Desde</span>
                       <p className="text-[22px] font-extrabold text-black leading-none">$448.000</p>
                     </div>
-                    <span className="inline-flex items-center gap-2 text-[13px] font-bold tracking-[0.08em] uppercase text-[#e07328] group-hover:gap-3 transition-all duration-300">
+                    <span className="inline-flex items-center gap-2 text-[13px] font-bold tracking-[0.08em] uppercase text-[#2872e0] group-hover:gap-3 transition-all duration-300">
                       Ver programa &rarr;
                     </span>
                   </div>
@@ -150,12 +150,12 @@ function CursosPage() {
               </div>
               <div className="p-7 flex flex-col flex-1">
                 <div className="flex flex-wrap items-center gap-2 mb-3">
-                  <span className="text-[#e07328] text-sm">⬗</span>
+                  <span className="text-[#2872e0] text-sm">⬗</span>
                   <span className="text-[11px] font-semibold tracking-[0.12em] uppercase text-black/45">
                     Nivel 1 &middot; Workshop
                   </span>
                 </div>
-                <h4 className="text-[20px] font-extrabold leading-tight text-black mb-2.5 group-hover:text-[#e07328] transition-colors duration-300">
+                <h4 className="text-[20px] font-extrabold leading-tight text-black mb-2.5 group-hover:text-[#2872e0] transition-colors duration-300">
                   Introducción a la IA Generativa
                 </h4>
                 <p className="text-[14px] leading-[1.7] text-[#333333] font-light flex-1">
@@ -163,7 +163,7 @@ function CursosPage() {
                 </p>
                 <div className="mt-6 pt-5 border-t border-black/8 flex items-center justify-between">
                   <span className="text-[12px] text-[#333333] font-medium">Presencial &middot; 12 hs</span>
-                  <span className="text-[12px] font-bold tracking-[0.06em] uppercase text-[#e07328] group-hover:translate-x-1 transition-all duration-300 inline-flex items-center gap-1">
+                  <span className="text-[12px] font-bold tracking-[0.06em] uppercase text-[#2872e0] group-hover:translate-x-1 transition-all duration-300 inline-flex items-center gap-1">
                     Ver + &rarr;
                   </span>
                 </div>
@@ -184,12 +184,12 @@ function CursosPage() {
               </div>
               <div className="p-7 flex flex-col flex-1">
                 <div className="flex flex-wrap items-center gap-2 mb-3">
-                  <span className="text-[#e07328] text-sm">⬗</span>
+                  <span className="text-[#2872e0] text-sm">⬗</span>
                   <span className="text-[11px] font-semibold tracking-[0.12em] uppercase text-black/45">
                     Nivel 2 &middot; Programa
                   </span>
                 </div>
-                <h4 className="text-[20px] font-extrabold leading-tight text-black mb-2.5 group-hover:text-[#e07328] transition-colors duration-300">
+                <h4 className="text-[20px] font-extrabold leading-tight text-black mb-2.5 group-hover:text-[#2872e0] transition-colors duration-300">
                   Dirección de Fotografía con IA
                 </h4>
                 <p className="text-[14px] leading-[1.7] text-[#333333] font-light flex-1">
@@ -197,7 +197,7 @@ function CursosPage() {
                 </p>
                 <div className="mt-6 pt-5 border-t border-black/8 flex items-center justify-between">
                   <span className="text-[12px] text-[#333333] font-medium">Presencial &middot; 12 hs</span>
-                  <span className="text-[12px] font-bold tracking-[0.06em] uppercase text-[#e07328] group-hover:translate-x-1 transition-all duration-300 inline-flex items-center gap-1">
+                  <span className="text-[12px] font-bold tracking-[0.06em] uppercase text-[#2872e0] group-hover:translate-x-1 transition-all duration-300 inline-flex items-center gap-1">
                     Ver + &rarr;
                   </span>
                 </div>
@@ -218,12 +218,12 @@ function CursosPage() {
               </div>
               <div className="p-7 flex flex-col flex-1">
                 <div className="flex flex-wrap items-center gap-2 mb-3">
-                  <span className="text-[#e07328] text-sm">⬗</span>
+                  <span className="text-[#2872e0] text-sm">⬗</span>
                   <span className="text-[11px] font-semibold tracking-[0.12em] uppercase text-black/45">
                     Nivel 3 &middot; Programa
                   </span>
                 </div>
-                <h4 className="text-[20px] font-extrabold leading-tight text-black mb-2.5 group-hover:text-[#e07328] transition-colors duration-300">
+                <h4 className="text-[20px] font-extrabold leading-tight text-black mb-2.5 group-hover:text-[#2872e0] transition-colors duration-300">
                   Especialización Profesional
                 </h4>
                 <p className="text-[14px] leading-[1.7] text-[#333333] font-light flex-1">
@@ -231,7 +231,7 @@ function CursosPage() {
                 </p>
                 <div className="mt-6 pt-5 border-t border-black/8 flex items-center justify-between">
                   <span className="text-[12px] text-[#333333] font-medium">Presencial &middot; 12 hs</span>
-                  <span className="text-[12px] font-bold tracking-[0.06em] uppercase text-[#e07328] group-hover:translate-x-1 transition-all duration-300 inline-flex items-center gap-1">
+                  <span className="text-[12px] font-bold tracking-[0.06em] uppercase text-[#2872e0] group-hover:translate-x-1 transition-all duration-300 inline-flex items-center gap-1">
                     Ver + &rarr;
                   </span>
                 </div>
@@ -252,12 +252,12 @@ function CursosPage() {
               </div>
               <div className="p-7 flex flex-col flex-1">
                 <div className="flex flex-wrap items-center gap-2 mb-3">
-                  <span className="text-[#e07328] text-sm">⬗</span>
+                  <span className="text-[#2872e0] text-sm">⬗</span>
                   <span className="text-[11px] font-semibold tracking-[0.12em] uppercase text-black/45">
                     Workshop &middot; Taller
                   </span>
                 </div>
-                <h4 className="text-[20px] font-extrabold leading-tight text-black mb-2.5 group-hover:text-[#e07328] transition-colors duration-300">
+                <h4 className="text-[20px] font-extrabold leading-tight text-black mb-2.5 group-hover:text-[#2872e0] transition-colors duration-300">
                   WS Narrativas Visuales
                 </h4>
                 <p className="text-[14px] leading-[1.7] text-[#333333] font-light flex-1">
@@ -265,7 +265,7 @@ function CursosPage() {
                 </p>
                 <div className="mt-6 pt-5 border-t border-black/8 flex items-center justify-between">
                   <span className="text-[12px] text-[#333333] font-medium">Presencial &middot; 12 hs</span>
-                  <span className="text-[12px] font-bold tracking-[0.06em] uppercase text-[#e07328] group-hover:translate-x-1 transition-all duration-300 inline-flex items-center gap-1">
+                  <span className="text-[12px] font-bold tracking-[0.06em] uppercase text-[#2872e0] group-hover:translate-x-1 transition-all duration-300 inline-flex items-center gap-1">
                     Ver + &rarr;
                   </span>
                 </div>
@@ -286,12 +286,12 @@ function CursosPage() {
               </div>
               <div className="p-7 flex flex-col flex-1">
                 <div className="flex flex-wrap items-center gap-2 mb-3">
-                  <span className="text-[#e07328] text-sm">⬗</span>
+                  <span className="text-[#2872e0] text-sm">⬗</span>
                   <span className="text-[11px] font-semibold tracking-[0.12em] uppercase text-black/45">
                     Masterclass &middot; Taller
                   </span>
                 </div>
-                <h4 className="text-[20px] font-extrabold leading-tight text-black mb-2.5 group-hover:text-[#e07328] transition-colors duration-300">
+                <h4 className="text-[20px] font-extrabold leading-tight text-black mb-2.5 group-hover:text-[#2872e0] transition-colors duration-300">
                   Laboratorio AI
                 </h4>
                 <p className="text-[14px] leading-[1.7] text-[#333333] font-light flex-1">
@@ -299,7 +299,7 @@ function CursosPage() {
                 </p>
                 <div className="mt-6 pt-5 border-t border-black/8 flex items-center justify-between">
                   <span className="text-[12px] text-[#333333] font-medium">Presencial &middot; 12 hs</span>
-                  <span className="text-[12px] font-bold tracking-[0.06em] uppercase text-[#e07328] group-hover:translate-x-1 transition-all duration-300 inline-flex items-center gap-1">
+                  <span className="text-[12px] font-bold tracking-[0.06em] uppercase text-[#2872e0] group-hover:translate-x-1 transition-all duration-300 inline-flex items-center gap-1">
                     Ver + &rarr;
                   </span>
                 </div>
@@ -309,7 +309,7 @@ function CursosPage() {
             {/* Mentoría — dark accent card */}
             <Link
               to="/cursos/narrativas-visuales"
-              className="group flex flex-col bg-neutral-950 text-white rounded-2xl overflow-hidden shadow-sm hover:shadow-[0_30px_70px_-45px_rgba(224,115,40,0.6)] transition-all duration-500 border border-neutral-900"
+              className="group flex flex-col bg-neutral-950 text-white rounded-2xl overflow-hidden shadow-sm hover:shadow-[0_30px_70px_-45px_rgba(40,114,224,0.6)] transition-all duration-500 border border-neutral-900"
             >
               <div className="relative overflow-hidden aspect-[16/11] bg-neutral-900">
                 <img
@@ -321,12 +321,12 @@ function CursosPage() {
               </div>
               <div className="p-7 flex flex-col flex-1">
                 <div className="flex flex-wrap items-center gap-2 mb-3">
-                  <span className="text-[#e07328] text-sm">⬗</span>
+                  <span className="text-[#2872e0] text-sm">⬗</span>
                   <span className="text-[11px] font-semibold tracking-[0.12em] uppercase text-white/45">
                     A medida
                   </span>
                 </div>
-                <h4 className="text-[20px] font-extrabold leading-tight text-white mb-2.5 group-hover:text-[#e07328] transition-colors duration-300">
+                <h4 className="text-[20px] font-extrabold leading-tight text-white mb-2.5 group-hover:text-[#2872e0] transition-colors duration-300">
                   Mentorías Personalizadas
                 </h4>
                 <p className="text-[14px] leading-[1.7] text-white/55 font-light flex-1">
@@ -334,7 +334,7 @@ function CursosPage() {
                 </p>
                 <div className="mt-6 pt-5 border-t border-white/10 flex items-center justify-between">
                   <span className="text-[12px] text-white/45 font-medium">1:1 &middot; Flexible</span>
-                  <span className="text-[12px] font-bold tracking-[0.06em] uppercase text-[#e07328] group-hover:translate-x-1 transition-all duration-300 inline-flex items-center gap-1">
+                  <span className="text-[12px] font-bold tracking-[0.06em] uppercase text-[#2872e0] group-hover:translate-x-1 transition-all duration-300 inline-flex items-center gap-1">
                     Ver + &rarr;
                   </span>
                 </div>
@@ -346,9 +346,9 @@ function CursosPage() {
       </section>
 
       {/* ── CTA strip ── */}
-      <section id="cursos-contacto-cta" className="bg-neutral-950 text-white border-b border-[#e07328]/10">
+      <section id="cursos-contacto-cta" className="bg-neutral-950 text-white border-b border-[#2872e0]/10">
         <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 py-20 md:py-28 text-center space-y-6">
-          <p className="text-[12px] font-semibold tracking-[0.3em] uppercase text-[#e07328]">
+          <p className="text-[12px] font-semibold tracking-[0.3em] uppercase text-[#2872e0]">
             ¿No sabés por dónde empezar?
           </p>
           <h2 className="text-[clamp(2rem,4.5vw,3.6rem)] leading-[1.05] tracking-[-0.02em] max-w-3xl mx-auto font-light text-white/55">

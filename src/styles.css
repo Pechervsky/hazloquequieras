@@ -60,19 +60,19 @@ code {
   --card-foreground: #000000;
   --popover: #ffffff;
   --popover-foreground: #000000;
-  --primary: #e07328;
+  --primary: #2872e0;
   --primary-foreground: #ffffff;
   --secondary: #f3f4f6;
   --secondary-foreground: #111111;
   --muted: #f3f4f6;
   --muted-foreground: #000000;
-  --accent: #e07328;
+  --accent: #2872e0;
   --accent-foreground: #ffffff;
   --destructive: #ef4444;
   --destructive-foreground: #ef4444;
   --border: #cccccc;
   --input: #cccccc;
-  --ring: #e07328;
+  --ring: #2872e0;
   --radius: 0.5rem;
 }
 
@@ -100,9 +100,9 @@ code {
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
-  --color-orange: #e07328;
-  --color-orange-light: #f58c3e;
-  --color-orange-soft: #f8a867;
+  --color-orange: #2872e0;
+  --color-orange-light: #3e8cf5;
+  --color-orange-soft: #67a8f8;
   /* Make Tailwind's `font-sans` utility resolve to Avenir Next so the entire
      project (including elements that use `font-sans`, e.g. the hero title) uses it. */
   --font-sans: 'Avenir Next', 'Avenir', 'Avenir Next LT Pro', 'Nunito Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
@@ -138,7 +138,7 @@ b {
     color: inherit;
   }
   .boton-principal {
-    background-color: #e07328 !important;
+    background-color: #2872e0 !important;
     color: #ffffff !important;
   }
 }

@@ -43,7 +43,7 @@ function NarrativasVisualesPage() {
       {/* ── Breadcrumb ── */}
       <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 pt-10">
         <div className="flex items-center gap-2 text-[12px] tracking-[0.08em] text-black/40 font-medium uppercase">
-          <Link to="/cursos" className="hover:text-[#e07328] transition-colors duration-300">
+          <Link to="/cursos" className="hover:text-[#2872e0] transition-colors duration-300">
             Formación
           </Link>
           <span>/</span>
@@ -60,7 +60,7 @@ function NarrativasVisualesPage() {
           {/* Left column — Title & details */}
           <div className="lg:col-span-7">
             <div className="flex flex-wrap items-center gap-2.5 mb-7">
-              <span className="px-3.5 py-1.5 bg-[#e07328] text-white text-[11px] font-bold tracking-[0.18em] uppercase rounded-full">
+              <span className="px-3.5 py-1.5 bg-[#2872e0] text-white text-[11px] font-bold tracking-[0.18em] uppercase rounded-full">
                 Programa
               </span>
               <span className="px-3.5 py-1.5 border border-black/12 text-black/60 text-[11px] font-semibold tracking-[0.12em] uppercase rounded-full">
@@ -76,7 +76,7 @@ function NarrativasVisualesPage() {
               <span className="font-extrabold text-black">visuales</span>
               <br />
               <span className="font-light text-[#333333]">y </span>
-              <span className="font-extrabold text-[#e07328]">
+              <span className="font-extrabold text-[#2872e0]">
                 expresión<span className="text-black">.</span>
               </span>
             </h1>
@@ -91,25 +91,25 @@ function NarrativasVisualesPage() {
             {/* Quick facts */}
             <div className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-px bg-black/8 border border-black/8 rounded-xl overflow-hidden shadow-sm">
               <div className="bg-white p-5">
-                <p className="text-[12px] font-semibold tracking-[0.3em] uppercase text-[#e07328] mb-2">
+                <p className="text-[12px] font-semibold tracking-[0.3em] uppercase text-[#2872e0] mb-2">
                   Duración
                 </p>
                 <p className="text-[17px] font-extrabold text-black">3 meses</p>
               </div>
               <div className="bg-white p-5">
-                <p className="text-[12px] font-semibold tracking-[0.3em] uppercase text-[#e07328] mb-2">
+                <p className="text-[12px] font-semibold tracking-[0.3em] uppercase text-[#2872e0] mb-2">
                   Encuentros
                 </p>
                 <p className="text-[17px] font-extrabold text-black">12 clases</p>
               </div>
               <div className="bg-white p-5">
-                <p className="text-[12px] font-semibold tracking-[0.3em] uppercase text-[#e07328] mb-2">
+                <p className="text-[12px] font-semibold tracking-[0.3em] uppercase text-[#2872e0] mb-2">
                   Modalidad
                 </p>
                 <p className="text-[17px] font-extrabold text-black">Presencial</p>
               </div>
               <div className="bg-white p-5">
-                <p className="text-[12px] font-semibold tracking-[0.3em] uppercase text-[#e07328] mb-2">
+                <p className="text-[12px] font-semibold tracking-[0.3em] uppercase text-[#2872e0] mb-2">
                   Formato
                 </p>
                 <p className="text-[17px] font-extrabold text-black">Teórico-práctico</p>
@@ -158,12 +158,12 @@ function NarrativasVisualesPage() {
       </div>
 
       {/* ── Propuesta General (P.01) ── */}
-      <section className="bg-white border-b border-[#e07328]/10">
+      <section className="bg-white border-b border-[#2872e0]/10">
         <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 py-16 md:py-24">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
             <div className="lg:col-span-4">
               <div className="flex items-center gap-5 sticky top-28">
-                <span className="text-[13px] font-black tracking-[0.25em] text-[#e07328]">P.01</span>
+                <span className="text-[13px] font-black tracking-[0.25em] text-[#2872e0]">P.01</span>
                 <div className="w-10 h-px bg-black/20" />
                 <h2 className="text-[22px] md:text-[26px] font-extrabold tracking-[-0.01em] text-black">
                   Propuesta general
@@ -194,7 +194,7 @@ function NarrativasVisualesPage() {
           {/* Objetivos */}
           <div>
             <div className="flex items-center gap-5 mb-10">
-              <span className="text-[13px] font-black tracking-[0.25em] text-[#e07328]">P.02</span>
+              <span className="text-[13px] font-black tracking-[0.25em] text-[#2872e0]">P.02</span>
               <div className="w-10 h-px bg-black/20" />
               <h2 className="text-[22px] md:text-[26px] font-extrabold tracking-[-0.01em] text-black">
                 Objetivos
@@ -213,7 +213,7 @@ function NarrativasVisualesPage() {
                   key={index}
                   className="flex gap-5 py-5 border-t border-black/10 last:border-b last:border-black/10 group hover:bg-neutral-50/50 transition-colors duration-300"
                 >
-                  <span className="text-[12px] font-black text-[#e07328] pt-1 tabular-nums">
+                  <span className="text-[12px] font-black text-[#2872e0] pt-1 tabular-nums">
                     {String(index + 1).padStart(2, '0')}
                   </span>
                   <p className="text-[16px] leading-[1.65] text-neutral-800 font-light group-hover:text-black transition-colors">
@@ -227,7 +227,7 @@ function NarrativasVisualesPage() {
           {/* Destinatarios */}
           <div>
             <div className="flex items-center gap-5 mb-10">
-              <span className="text-[13px] font-black tracking-[0.25em] text-[#e07328]">P.03</span>
+              <span className="text-[13px] font-black tracking-[0.25em] text-[#2872e0]">P.03</span>
               <div className="w-10 h-px bg-black/20" />
               <h2 className="text-[22px] md:text-[26px] font-extrabold tracking-[-0.01em] text-black">
                 ¿Para quién es?
@@ -242,9 +242,9 @@ function NarrativasVisualesPage() {
               ].map((item, i) => (
                 <div
                   key={i}
-                  className="flex items-start gap-4 p-5 bg-white rounded-xl border border-[#e07328]/10 shadow-xs hover:border-[#e07328]/35 transition-all duration-300"
+                  className="flex items-start gap-4 p-5 bg-white rounded-xl border border-[#2872e0]/10 shadow-xs hover:border-[#2872e0]/35 transition-all duration-300"
                 >
-                  <span className="text-[#e07328] text-lg leading-none mt-0.5">&rarr;</span>
+                  <span className="text-[#2872e0] text-lg leading-none mt-0.5">&rarr;</span>
                   <p className="text-[16px] leading-[1.6] text-neutral-800 font-light">
                     {item}
                   </p>
@@ -265,12 +265,12 @@ function NarrativasVisualesPage() {
       </section>
 
       {/* ── Contenidos / Timeline 3 etapas (Dark Section) ── */}
-      <section className="bg-neutral-950 text-white border-y border-[#e07328]/10">
+      <section className="bg-neutral-950 text-white border-y border-[#2872e0]/10">
         <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 py-20 md:py-28">
           
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16 md:mb-20">
             <div>
-              <p className="text-[12px] font-semibold tracking-[0.3em] uppercase text-[#e07328] mb-4">
+              <p className="text-[12px] font-semibold tracking-[0.3em] uppercase text-[#2872e0] mb-4">
                 Contenidos
               </p>
               <h2 className="text-[clamp(1.8rem,4vw,3.2rem)] leading-[1.05] tracking-[-0.02em]">
@@ -287,34 +287,34 @@ function NarrativasVisualesPage() {
             
             {/* Etapa 1 */}
             <div className="relative border-l-2 border-white/15 md:border-l-0 md:border-t-2 md:border-white/15 pl-8 md:pl-0 md:pt-10 pb-4 md:pb-0 md:pr-6 group">
-              <div className="absolute -left-[7px] top-0 md:left-0 md:-top-[7px] w-3 h-3 bg-white/40 rounded-full group-hover:bg-[#e07328] transition-colors duration-300" />
+              <div className="absolute -left-[7px] top-0 md:left-0 md:-top-[7px] w-3 h-3 bg-white/40 rounded-full group-hover:bg-[#2872e0] transition-colors duration-300" />
               <div className="flex items-baseline gap-3 mb-2">
                 <span className="text-[13px] font-bold tracking-[0.15em] uppercase text-white/45">
                   Mes 1
                 </span>
                 <span className="text-[12px] text-white/30">&middot; 4 clases</span>
               </div>
-              <h3 className="text-[22px] md:text-[26px] font-extrabold mb-2 leading-tight text-white group-hover:text-[#e07328] transition-colors duration-300">
+              <h3 className="text-[22px] md:text-[26px] font-extrabold mb-2 leading-tight text-white group-hover:text-[#2872e0] transition-colors duration-300">
                 Despertar
               </h3>
-              <p className="text-[14px] text-[#e07328] font-semibold mb-6 tracking-[0.01em]">
+              <p className="text-[14px] text-[#2872e0] font-semibold mb-6 tracking-[0.01em]">
                 La mirada y la voz narrativa
               </p>
               <ul className="space-y-4 text-[14.5px] leading-[1.7] text-white/70 font-light">
                 <li className="flex gap-3">
-                  <span className="text-[#e07328] font-bold">&middot;</span>
+                  <span className="text-[#2872e0] font-bold">&middot;</span>
                   Creatividad y expresión: el acto comunicacional y la imagen como lenguaje.
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-[#e07328] font-bold">&middot;</span>
+                  <span className="text-[#2872e0] font-bold">&middot;</span>
                   Introducción al storytelling visual y el proyecto fotográfico personal.
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-[#e07328] font-bold">&middot;</span>
+                  <span className="text-[#2872e0] font-bold">&middot;</span>
                   La bitácora como herramienta de proceso. Técnicas de freewriting con imágenes.
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-[#e07328] font-bold">&middot;</span>
+                  <span className="text-[#2872e0] font-bold">&middot;</span>
                   Análisis de autores clave y ejercicios de exploración expresiva.
                 </li>
               </ul>
@@ -325,34 +325,34 @@ function NarrativasVisualesPage() {
 
             {/* Etapa 2 */}
             <div className="relative border-l-2 border-white/15 md:border-l-0 md:border-t-2 md:border-white/15 pl-8 md:pl-0 md:pt-10 pb-4 md:pb-0 md:px-6 group">
-              <div className="absolute -left-[7px] top-0 md:left-0 md:-top-[7px] w-3 h-3 bg-white/60 rounded-full group-hover:bg-[#e07328] transition-colors duration-300" />
+              <div className="absolute -left-[7px] top-0 md:left-0 md:-top-[7px] w-3 h-3 bg-white/60 rounded-full group-hover:bg-[#2872e0] transition-colors duration-300" />
               <div className="flex items-baseline gap-3 mb-2">
                 <span className="text-[13px] font-bold tracking-[0.15em] uppercase text-white/45">
                   Mes 2
                 </span>
                 <span className="text-[12px] text-white/30">&middot; 4 clases</span>
               </div>
-              <h3 className="text-[22px] md:text-[26px] font-extrabold mb-2 leading-tight text-white group-hover:text-[#e07328] transition-colors duration-300">
+              <h3 className="text-[22px] md:text-[26px] font-extrabold mb-2 leading-tight text-white group-hover:text-[#2872e0] transition-colors duration-300">
                 Explorar
               </h3>
-              <p className="text-[14px] text-[#e07328] font-semibold mb-6 tracking-[0.01em]">
+              <p className="text-[14px] text-[#2872e0] font-semibold mb-6 tracking-[0.01em]">
                 El adentro y el afuera
               </p>
               <ul className="space-y-4 text-[14.5px] leading-[1.7] text-white/70 font-light">
                 <li className="flex gap-3">
-                  <span className="text-[#e07328] font-bold">&middot;</span>
+                  <span className="text-[#2872e0] font-bold">&middot;</span>
                   Narrativas de identidad: el yo y el otro. Lo autorreferencial.
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-[#e07328] font-bold">&middot;</span>
+                  <span className="text-[#2872e0] font-bold">&middot;</span>
                   Retrato, autorretrato y escritura de identidad. El archivo familiar como material.
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-[#e07328] font-bold">&middot;</span>
+                  <span className="text-[#2872e0] font-bold">&middot;</span>
                   Storyboard y guion visual. Materialización de la obra: soportes y espacio.
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-[#e07328] font-bold">&middot;</span>
+                  <span className="text-[#2872e0] font-bold">&middot;</span>
                   Producción narrativa en estudio o exterior. Revisión de proyectos.
                 </li>
               </ul>
@@ -362,35 +362,35 @@ function NarrativasVisualesPage() {
             </div>
 
             {/* Etapa 3 */}
-            <div className="relative border-l-2 border-[#e07328] md:border-l-0 md:border-t-2 md:border-[#e07328] pl-8 md:pl-0 md:pt-10 md:pl-6 group">
-              <div className="absolute -left-[7px] top-0 md:left-0 md:-top-[7px] w-3 h-3 bg-[#e07328] rounded-full" />
+            <div className="relative border-l-2 border-[#2872e0] md:border-l-0 md:border-t-2 md:border-[#2872e0] pl-8 md:pl-0 md:pt-10 md:pl-6 group">
+              <div className="absolute -left-[7px] top-0 md:left-0 md:-top-[7px] w-3 h-3 bg-[#2872e0] rounded-full" />
               <div className="flex items-baseline gap-3 mb-2">
-                <span className="text-[13px] font-bold tracking-[0.15em] uppercase text-[#e07328]">
+                <span className="text-[13px] font-bold tracking-[0.15em] uppercase text-[#2872e0]">
                   Mes 3
                 </span>
                 <span className="text-[12px] text-white/30">&middot; 4 clases</span>
               </div>
-              <h3 className="text-[22px] md:text-[26px] font-extrabold mb-2 leading-tight text-white group-hover:text-[#e07328] transition-colors duration-300">
+              <h3 className="text-[22px] md:text-[26px] font-extrabold mb-2 leading-tight text-white group-hover:text-[#2872e0] transition-colors duration-300">
                 Construir &amp; exhibir
               </h3>
-              <p className="text-[14px] text-[#e07328] font-semibold mb-6 tracking-[0.01em]">
+              <p className="text-[14px] text-[#2872e0] font-semibold mb-6 tracking-[0.01em]">
                 De la idea a la obra materializada
               </p>
               <ul className="space-y-4 text-[14.5px] leading-[1.7] text-white/70 font-light">
                 <li className="flex gap-3">
-                  <span className="text-[#e07328] font-bold">&middot;</span>
+                  <span className="text-[#2872e0] font-bold">&middot;</span>
                   Salida de campo para aplicar lo aprendido. Artistas visuales contemporáneos.
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-[#e07328] font-bold">&middot;</span>
+                  <span className="text-[#2872e0] font-bold">&middot;</span>
                   Trabajo intensivo sobre proyectos finales. Edición, ritmo y secuencia.
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-[#e07328] font-bold">&middot;</span>
+                  <span className="text-[#2872e0] font-bold">&middot;</span>
                   Curaduría, coherencia narrativa y desarrollo del statement de artista.
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-[#e07328] font-bold">&middot;</span>
+                  <span className="text-[#2872e0] font-bold">&middot;</span>
                   Cierre con muestra colectiva final. Posibilidad de invitar familiares y amigos.
                 </li>
               </ul>
@@ -405,26 +405,26 @@ function NarrativasVisualesPage() {
 
       {/* ── Qué incluye la cursada ── */}
       <section className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 py-16 md:py-24">
-        <p className="text-[12px] font-semibold tracking-[0.3em] uppercase text-[#e07328] mb-8">
+        <p className="text-[12px] font-semibold tracking-[0.3em] uppercase text-[#2872e0] mb-8">
           La cursada incluye
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-px bg-black/8 border border-black/8 rounded-2xl overflow-hidden shadow-sm">
           <div className="bg-white p-8 md:p-10 hover:bg-neutral-50/50 transition-colors duration-300">
-            <p className="text-[40px] font-extrabold text-[#e07328] leading-none mb-4">01</p>
+            <p className="text-[40px] font-extrabold text-[#2872e0] leading-none mb-4">01</p>
             <h4 className="text-[18px] font-bold text-black mb-2">Producción con narrativa</h4>
             <p className="text-[15px] leading-[1.7] text-[#333333] font-light">
               Una pieza propia desarrollada de principio a fin con acompañamiento.
             </p>
           </div>
           <div className="bg-white p-8 md:p-10 hover:bg-neutral-50/50 transition-colors duration-300">
-            <p className="text-[40px] font-extrabold text-[#e07328] leading-none mb-4">02</p>
+            <p className="text-[40px] font-extrabold text-[#2872e0] leading-none mb-4">02</p>
             <h4 className="text-[18px] font-bold text-black mb-2">Salida de campo</h4>
             <p className="text-[15px] leading-[1.7] text-[#333333] font-light">
               Jornada práctica para aplicar los recursos explorados en contexto real.
             </p>
           </div>
           <div className="bg-white p-8 md:p-10 hover:bg-neutral-50/50 transition-colors duration-300">
-            <p className="text-[40px] font-extrabold text-[#e07328] leading-none mb-4">&infin;</p>
+            <p className="text-[40px] font-extrabold text-[#2872e0] leading-none mb-4">&infin;</p>
             <h4 className="text-[18px] font-bold text-black mb-2">Muestra colectiva final</h4>
             <p className="text-[15px] leading-[1.7] text-[#333333] font-light">
               Exhibición de la obra en la escuela, abierta a familiares y amigos.
@@ -434,13 +434,13 @@ function NarrativasVisualesPage() {
       </section>
 
       {/* ── Inscripción / Pricing Interactive Card ── */}
-      <section id="inscripcion" className="bg-white border-y border-[#e07328]/10">
+      <section id="inscripcion" className="bg-white border-y border-[#2872e0]/10">
         <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 py-16 md:py-24">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
             
             <div className="lg:col-span-5">
               <div className="flex items-center gap-5 mb-8">
-                <span className="text-[14px] font-black tracking-[0.25em] text-[#e07328]">04</span>
+                <span className="text-[14px] font-black tracking-[0.25em] text-[#2872e0]">04</span>
                 <div className="w-10 h-px bg-black/20" />
                 <h2 className="text-[22px] md:text-[26px] font-extrabold tracking-[-0.01em] text-black uppercase">
                   Inscripción
@@ -480,7 +480,7 @@ function NarrativasVisualesPage() {
                         <span className="text-[20px] text-black/40 font-light">,00</span>
                       </p>
                     </div>
-                    <span className="px-3.5 py-1.5 bg-[#e07328]/10 text-[#e07328] text-[12px] font-bold rounded-full border border-[#e07328]/5">
+                    <span className="px-3.5 py-1.5 bg-[#2872e0]/10 text-[#2872e0] text-[12px] font-bold rounded-full border border-[#2872e0]/5">
                       + 2.º curso 100% bonificado
                     </span>
                   </div>
@@ -492,14 +492,14 @@ function NarrativasVisualesPage() {
                   {/* Promo 1 Card */}
                   <div
                     onClick={() => setPromo('promo1')}
-                    className={`group flex items-center gap-4 p-5 border-2 rounded-xl cursor-pointer transition-all duration-300 ${promo === 'promo1' ? 'border-[#e07328] bg-[#e07328]/[0.03]' : 'border-black/10 bg-white hover:border-[#e07328]/40'}`}
+                    className={`group flex items-center gap-4 p-5 border-2 rounded-xl cursor-pointer transition-all duration-300 ${promo === 'promo1' ? 'border-[#2872e0] bg-[#2872e0]/[0.03]' : 'border-black/10 bg-white hover:border-[#2872e0]/40'}`}
                   >
                     <input
                       type="radio"
                       name="promo"
                       checked={promo === 'promo1'}
                       onChange={() => setPromo('promo1')}
-                      className="accent-[#e07328] w-4 h-4 cursor-pointer"
+                      className="accent-[#2872e0] w-4 h-4 cursor-pointer"
                     />
                     <div className="flex-1">
                       <p className="text-[15px] font-bold text-black">Promo 1 &middot; Cuotas sin interés</p>
@@ -511,14 +511,14 @@ function NarrativasVisualesPage() {
                   {/* Promo 2 Card */}
                   <div
                     onClick={() => setPromo('promo2')}
-                    className={`group flex items-center gap-4 p-5 border-2 rounded-xl cursor-pointer transition-all duration-300 ${promo === 'promo2' ? 'border-[#e07328] bg-[#e07328]/[0.03]' : 'border-black/10 bg-white hover:border-[#e07328]/40'}`}
+                    className={`group flex items-center gap-4 p-5 border-2 rounded-xl cursor-pointer transition-all duration-300 ${promo === 'promo2' ? 'border-[#2872e0] bg-[#2872e0]/[0.03]' : 'border-black/10 bg-white hover:border-[#2872e0]/40'}`}
                   >
                     <input
                       type="radio"
                       name="promo"
                       checked={promo === 'promo2'}
                       onChange={() => setPromo('promo2')}
-                      className="accent-[#e07328] w-4 h-4 cursor-pointer"
+                      className="accent-[#2872e0] w-4 h-4 cursor-pointer"
                     />
                     <div className="flex-1">
                       <p className="text-[15px] font-bold text-black">Promo 2 &middot; Cupón MOTI20OFF</p>
@@ -526,7 +526,7 @@ function NarrativasVisualesPage() {
                     </div>
                     <div className="text-right">
                       <p className="text-[13px] text-black/35 line-through font-light">$560.000</p>
-                      <p className="text-[18px] font-extrabold text-[#e07328]">$448.000</p>
+                      <p className="text-[18px] font-extrabold text-[#2872e0]">$448.000</p>
                     </div>
                   </div>
 
@@ -539,7 +539,7 @@ function NarrativasVisualesPage() {
                       <select
                         value={modalidad}
                         onChange={(e) => setModalidad(e.target.value)}
-                        className="w-full px-4 py-3 border border-black/12 rounded-lg text-[14px] text-neutral-700 bg-white focus:border-[#e07328] focus:outline-none cursor-pointer shadow-2xs"
+                        className="w-full px-4 py-3 border border-black/12 rounded-lg text-[14px] text-neutral-700 bg-white focus:border-[#2872e0] focus:outline-none cursor-pointer shadow-2xs"
                       >
                         <option value="Presencial">Presencial</option>
                         <option value="Online en vivo">Online en vivo</option>
@@ -553,7 +553,7 @@ function NarrativasVisualesPage() {
                       <select
                         value={diaHora}
                         onChange={(e) => setDiaHora(e.target.value)}
-                        className="w-full px-4 py-3 border border-black/12 rounded-lg text-[14px] text-neutral-700 bg-white focus:border-[#e07328] focus:outline-none cursor-pointer shadow-2xs"
+                        className="w-full px-4 py-3 border border-black/12 rounded-lg text-[14px] text-neutral-700 bg-white focus:border-[#2872e0] focus:outline-none cursor-pointer shadow-2xs"
                       >
                         <option value="Elegí una opción">Elegí una opción</option>
                         <option value="Martes 18:00 – 21:00">Martes 18:00 – 21:00</option>
@@ -578,7 +578,7 @@ function NarrativasVisualesPage() {
                   </div>
 
                   <p className="text-center text-[13px] text-[#333333] font-light">
-                    <a href="https://wa.me/34645014166" target="_blank" rel="noopener noreferrer" className="text-[#e07328] font-semibold hover:underline">
+                    <a href="https://wa.me/34645014166" target="_blank" rel="noopener noreferrer" className="text-[#2872e0] font-semibold hover:underline">
                       ¿Necesitás consultar?
                     </a>{' '}
                     +34 645 014 166
@@ -603,7 +603,7 @@ function NarrativasVisualesPage() {
           </h2>
           <Link
             to="/cursos"
-            className="text-[13px] font-bold tracking-[0.08em] uppercase text-[#e07328] hover:gap-3 inline-flex items-center gap-2 transition-all duration-300"
+            className="text-[13px] font-bold tracking-[0.08em] uppercase text-[#2872e0] hover:gap-3 inline-flex items-center gap-2 transition-all duration-300"
           >
             Toda la formación &rarr;
           </Link>
@@ -619,10 +619,10 @@ function NarrativasVisualesPage() {
               />
             </div>
             <div>
-              <p className="text-[11px] tracking-[0.18em] uppercase text-[#e07328] font-bold">
+              <p className="text-[11px] tracking-[0.18em] uppercase text-[#2872e0] font-bold">
                 Programa
               </p>
-              <h4 className="mt-1 text-[19px] font-extrabold text-black group-hover:text-[#e07328] transition-colors duration-300">
+              <h4 className="mt-1 text-[19px] font-extrabold text-black group-hover:text-[#2872e0] transition-colors duration-300">
                 Introducción a la IA Generativa
               </h4>
             </div>
@@ -637,10 +637,10 @@ function NarrativasVisualesPage() {
               />
             </div>
             <div>
-              <p className="text-[11px] tracking-[0.18em] uppercase text-[#e07328] font-bold">
+              <p className="text-[11px] tracking-[0.18em] uppercase text-[#2872e0] font-bold">
                 Programa
               </p>
-              <h4 className="mt-1 text-[19px] font-extrabold text-black group-hover:text-[#e07328] transition-colors duration-300">
+              <h4 className="mt-1 text-[19px] font-extrabold text-black group-hover:text-[#2872e0] transition-colors duration-300">
                 Dirección de Fotografía con IA
               </h4>
             </div>
@@ -655,10 +655,10 @@ function NarrativasVisualesPage() {
               />
             </div>
             <div>
-              <p className="text-[11px] tracking-[0.18em] uppercase text-[#e07328] font-bold">
+              <p className="text-[11px] tracking-[0.18em] uppercase text-[#2872e0] font-bold">
                 Mentoría
               </p>
-              <h4 className="mt-1 text-[19px] font-extrabold text-black group-hover:text-[#e07328] transition-colors duration-300">
+              <h4 className="mt-1 text-[19px] font-extrabold text-black group-hover:text-[#2872e0] transition-colors duration-300">
                 Especialización Profesional
               </h4>
             </div>
