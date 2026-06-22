@@ -264,15 +264,6 @@ function Services() {
             </p>
           </div>
         </div>
-
-        {/* Imagen destacada — 70% de Ahorro — full width */}
-        <div className="mb-6 overflow-hidden bg-white">
-          <img
-            src="/trabajo-ahorro-70.jpg"
-            alt="70% de Ahorro en producción audiovisual con IA"
-            className="w-full h-auto object-contain"
-          />
-        </div>
       </div>
     </section>
   )
