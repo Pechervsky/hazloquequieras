@@ -1,4 +1,5 @@
 import { createFileRoute, Link } from '@tanstack/react-router'
+import { Volume2, VolumeX } from 'lucide-react'
 import { useState, useEffect, useRef } from 'react'
 
 export const Route = createFileRoute('/')({
@@ -1073,19 +1074,48 @@ export function Footer() {
 /* ───────────────────────────── Hero ───────────────────────────── */
 
 export function Hero() {
+  const heroVideoRef = useRef<HTMLVideoElement>(null)
+  const [heroMuted, setHeroMuted] = useState(true)
+
+  const toggleHeroAudio = () => {
+    const video = heroVideoRef.current
+    if (!video) return
+
+    video.muted = !video.muted
+    if (!video.muted) {
+      video.volume = 1
+      void video.play()
+    }
+    setHeroMuted(video.muted)
+  }
+
   return (
     <section className="relative w-full overflow-hidden bg-white">
       {/* ── Video full-bleed — de lado a lado, sin recortes (object-contain) ── */}
       <video
+        ref={heroVideoRef}
         autoPlay
         muted
         loop
         playsInline
+        preload="auto"
         poster="/hero-mama-bebe.jpg"
-        className="block w-full h-auto object-contain"
+        className="block w-full h-auto object-contain bg-black"
       >
-        <source src="/hero-video.mp4" type="video/mp4" />
+        <source src="/hero-clip.mov" type="video/mp4" />
+        <source src="/hero-clip.mov" type="video/quicktime" />
       </video>
+
+      <button
+        type="button"
+        onClick={toggleHeroAudio}
+        className="absolute right-5 top-24 z-10 inline-flex h-12 w-12 items-center justify-center border border-white/70 bg-black/55 text-white backdrop-blur-sm transition-colors duration-300 hover:bg-black/75 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black sm:right-8 md:right-12 md:top-28"
+        aria-label={heroMuted ? 'Activar audio del video de portada' : 'Silenciar video de portada'}
+        aria-pressed={!heroMuted}
+        title={heroMuted ? 'Activar audio' : 'Silenciar audio'}
+      >
+        {heroMuted ? <VolumeX className="h-5 w-5" aria-hidden="true" /> : <Volume2 className="h-5 w-5" aria-hidden="true" />}
+      </button>
 
       <div className="relative w-full max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 py-24 md:py-36">
         {/* ── Hero solo texto — fondo blanco, sin imágenes ── */}
