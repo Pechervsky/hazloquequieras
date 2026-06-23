@@ -1117,11 +1117,11 @@ export function Hero() {
         {heroMuted ? <VolumeX className="h-5 w-5" aria-hidden="true" /> : <Volume2 className="h-5 w-5" aria-hidden="true" />}
       </button>
 
-      <div className="relative w-full max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 py-24 md:py-36">
+      <div className="relative w-full max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 py-16 sm:py-24 md:py-36">
         {/* ── Hero solo texto — fondo blanco, sin imágenes ── */}
-        <div className="max-w-4xl mx-auto md:mx-0 text-center md:text-left">
+        <div className="max-w-4xl text-left">
           {/* Título de marca dominante — una palabra por línea, "QUIERAS" en naranja */}
-          <h1 className="font-sans font-extrabold tracking-[-0.03em] leading-[0.9] text-[clamp(2.5rem,8.5vw,7rem)] text-[#111111]">
+          <h1 className="font-sans font-extrabold tracking-[-0.03em] leading-[0.9] text-[clamp(3rem,15vw,7rem)] text-[#111111]">
             <span className="block">HAZ</span>
             <span className="block">LO</span>
             <span className="block">QUE</span>
@@ -1129,13 +1129,13 @@ export function Hero() {
           </h1>
 
           {/* Frase secundaria — legible, gris oscuro */}
-          <p className="mt-8 font-sans font-medium text-[#333333] leading-[1.25] tracking-[-0.01em] text-[clamp(1.25rem,2.6vw,1.9rem)] max-w-xl mx-auto md:mx-0">
+          <p className="mt-6 sm:mt-8 font-sans font-medium text-[#333333] leading-[1.25] tracking-[-0.01em] text-[clamp(1.15rem,2.6vw,1.9rem)] max-w-xl">
             Imágenes que aún no existen.
             <span className="block">Hasta que las describes.</span>
           </p>
 
           {/* Acciones — Formación · Próximo Workshop · Servicios */}
-          <div className="mt-10 flex flex-col sm:flex-row sm:flex-wrap items-stretch sm:items-center justify-center md:justify-start gap-4">
+          <div className="mt-8 sm:mt-10 flex flex-col sm:flex-row sm:flex-wrap items-stretch sm:items-center justify-start gap-3 sm:gap-4">
             {/* Botón 1 — Formación */}
             <Link
               to="/"
