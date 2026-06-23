@@ -245,24 +245,64 @@ function Services() {
 
       <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 py-16 md:py-28">
         {/* ── Soluciones Audiovisuales — encabezado ── */}
-        <div className="mb-12 md:mb-16">
+        <div className="mb-12 md:mb-16 max-w-3xl">
           <h2 className="text-[clamp(2rem,4vw,3.5rem)] font-extrabold tracking-[-0.02em] text-black leading-[1.05]">
             Soluciones Audiovisuales
           </h2>
-          <p className="mt-5 text-[clamp(1.05rem,1.6vw,1.35rem)] text-[#333333] leading-[1.55] max-w-3xl">
-            Producción visual para marcas, instituciones y creadores independientes.
+          <p className="mt-5 text-[clamp(1.05rem,1.6vw,1.35rem)] text-[#333333] leading-[1.55]">
+            Producción visual para marcas, instituciones y creadores independientes — del briefing a la entrega lista para publicar.
           </p>
-          <div className="max-w-2xl space-y-6 mt-10">
-            <p className="text-[15px] text-[#333333] leading-[1.85] tracking-[0.005em]">
-              Producimos contenido audiovisual profesional con IA generativa — desde piezas para redes y campañas hasta cortos publicitarios de alto impacto — con identidad visual coherente y entrega lista para publicar.
-            </p>
-            <p className="text-[15px] text-[#333333] leading-[1.85] tracking-[0.005em]">
-              Cada proyecto se adapta a tu marca, del briefing a la entrega final. Desarrollamos avatares hiperrealistas con acabado televisivo, bancos de imágenes exclusivos con modelos IA que reducen costes hasta un 70%, y campañas visuales planificadas para todo el año.
-            </p>
-            <p className="text-[15px] text-[#333333] leading-[1.85] tracking-[0.005em]">
-              Además, acompañamos a tu equipo con consultoría en optimización de prompts y procesos creativos escalables.
-            </p>
-          </div>
+        </div>
+
+        {/* ── Servicios — grilla de cajas minimalistas ── */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[1px] bg-[#e6e6e6] border border-[#e6e6e6]">
+          {[
+            {
+              n: '01',
+              title: 'Contenido para redes y campañas',
+              desc: 'Piezas audiovisuales profesionales con IA generativa, con identidad visual coherente y entrega lista para publicar.',
+            },
+            {
+              n: '02',
+              title: 'Cortos publicitarios',
+              desc: 'Producciones de alto impacto pensadas a medida de tu marca, del concepto a la pieza final.',
+            },
+            {
+              n: '03',
+              title: 'Avatares hiperrealistas',
+              desc: 'Presentadores y portavoces virtuales con acabado televisivo, listos para campañas y comunicación de marca.',
+            },
+            {
+              n: '04',
+              title: 'Bancos de imágenes exclusivos',
+              desc: 'Modelos IA propios que reducen los costes de producción hasta un 70% sin sacrificar calidad visual.',
+            },
+            {
+              n: '05',
+              title: 'Campañas visuales anuales',
+              desc: 'Planificación y producción de contenido para todo el año, coherente en estilo y mensaje.',
+            },
+            {
+              n: '06',
+              title: 'Consultoría creativa',
+              desc: 'Optimización de prompts y procesos creativos escalables para acompañar a tu equipo.',
+            },
+          ].map((s) => (
+            <div
+              key={s.n}
+              className="group bg-white p-8 md:p-9 transition-colors duration-300 hover:bg-[#fafbff]"
+            >
+              <span className="text-[12px] font-bold tracking-[0.2em] text-[#2872e0]">
+                {s.n}
+              </span>
+              <h3 className="mt-5 text-[17px] font-bold text-black leading-[1.3]">
+                {s.title}
+              </h3>
+              <p className="mt-3 text-[14px] leading-[1.7] text-[#555555] font-light">
+                {s.desc}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
@@ -537,7 +577,7 @@ function Formacion() {
                         <li className="flex gap-2"><span className="text-[#2872e0] flex-shrink-0">&mdash;</span>Dar el primer paso para entrenar tu &ldquo;agente fotográfico personalizado&rdquo;.</li>
                       </ul>
                       <div className="p-3 bg-white border-l-2 border-[#2872e0]">
-                        <p className="text-[12px] text-[#333333] italic leading-[1.6] font-light">
+                        <p className="text-[12px] text-[#333333] leading-[1.6] font-light">
                           &ldquo;Tu agente memoriza tu identidad visual, aplicando automáticamente estilo, iluminación y lentes sin configurarlos de cero.&rdquo;
                         </p>
                       </div>
@@ -826,7 +866,7 @@ function ElFormador() {
               Fotógrafo argentino radicado en Madrid desde 2000. Más de 35 años de trayectoria en fotoperiodismo, fotografía corporativa y publicidad en España, Italia y Reino Unido. Autor de <em>Warnes Autorretratos</em> y <em>Vértigo Madrid</em>. Creador de la metodología <em>Desafía tu mirada</em>. Cofundador de EIA Labs, especializada en traducir conocimiento fotográfico al lenguaje de la IA. IA Art Designer en <em>Futuro en Construcción</em>. Colaborador en <em>La Nación</em>. Campañas recientes: Coca-Cola UK &middot; Repsol &middot; Verisure.
             </p>
             <div className="border-l-2 border-[#2872e0] pl-5 mt-4">
-              <p className="text-[14px] text-[#222222] italic leading-[1.7] font-light max-w-3xl">
+              <p className="text-[14px] text-[#222222] leading-[1.7] font-light max-w-3xl">
                 &ldquo;Desde el cuarto oscuro hasta la IA generativa. Mi trayectoria refleja la constante adaptación del sector audiovisual, transformando cada avance tecnológico en una nueva oportunidad creativa.&rdquo;
               </p>
             </div>
@@ -1050,9 +1090,12 @@ export function Hero() {
       <div className="relative w-full max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 py-24 md:py-36">
         {/* ── Hero solo texto — fondo blanco, sin imágenes ── */}
         <div className="max-w-4xl mx-auto md:mx-0 text-center md:text-left">
-          {/* Título de marca dominante — "QUIERAS" en naranja */}
-          <h1 className="font-sans font-extrabold tracking-[-0.03em] leading-[0.95] text-[clamp(2.5rem,8.5vw,7rem)] text-[#111111]">
-            HAZ LO QUE <span className="text-[#2872e0]">QUIERAS</span>
+          {/* Título de marca dominante — una palabra por línea, "QUIERAS" en naranja */}
+          <h1 className="font-sans font-extrabold tracking-[-0.03em] leading-[0.9] text-[clamp(2.5rem,8.5vw,7rem)] text-[#111111]">
+            <span className="block">HAZ</span>
+            <span className="block">LO</span>
+            <span className="block">QUE</span>
+            <span className="block text-[#2872e0]">QUIERAS</span>
           </h1>
 
           {/* Frase secundaria — legible, gris oscuro */}

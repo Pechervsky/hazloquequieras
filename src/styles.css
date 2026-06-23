@@ -21,7 +21,22 @@ body {
   color: #000000;
   min-height: 100vh;
   position: relative;
+  /* Text always renders upright; never let the browser synthesize an oblique. */
+  font-style: normal;
+  font-synthesis-style: none;
 }
+
+/* Upright everywhere — the whole site uses a straight, non-italic style.
+   Covers default-italic elements (em, i, address, cite, etc.) too. */
+*,
+em,
+i,
+cite,
+address,
+blockquote {
+  font-style: normal;
+}
+
 
 /* Media never overflows its container on small screens.
    (Height is left untouched so aspect-ratio image boxes keep working,
