@@ -31,19 +31,10 @@ export const Route = createRootRoute({
         crossOrigin: 'anonymous',
       },
       {
-        rel: 'preconnect',
-        href: 'https://fonts.cdnfonts.com',
-        crossOrigin: 'anonymous',
-      },
-      {
-        // Full Avenir Next family (all weights) for the whole project
+        // Upright body/heading webfont for the whole project (only the
+        // non-italic axis is requested so text always renders straight).
         rel: 'stylesheet',
-        href: 'https://fonts.cdnfonts.com/css/avenir-next',
-      },
-      {
-        // Kept as fallback for the Avenir Next stack
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap',
+        href: 'https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200..1000&display=swap',
       },
     ],
     scripts: [],

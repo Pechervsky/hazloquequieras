@@ -177,7 +177,7 @@ function NarrativasVisualesPage() {
               </p>
               <p className="text-[17px] leading-[1.9] text-neutral-700 font-light">
                 Se trabaja con fotografía, imagen intervenida, archivo personal, escritura creativa, bitácora, collage, IA y análisis de obras. La propuesta se organiza en tres etapas —despertar, explorar y construir— replicando la estructura clásica de una narrativa:{' '}
-                <span className="italic font-medium text-black">introducción, nudo y desenlace.</span>
+                <span className="font-medium text-black">introducción, nudo y desenlace.</span>
               </p>
               <p className="text-[17px] leading-[1.9] text-neutral-700 font-light">
                 El recorrido culmina con la creación y exhibición de una obra visual propia, con la posibilidad de ser presentada en una muestra colectiva final.
@@ -318,7 +318,7 @@ function NarrativasVisualesPage() {
                   Análisis de autores clave y ejercicios de exploración expresiva.
                 </li>
               </ul>
-              <p className="mt-8 pt-5 border-t border-white/10 text-[13.5px] text-white/55 font-light italic leading-relaxed">
+              <p className="mt-8 pt-5 border-t border-white/10 text-[13.5px] text-white/55 font-light leading-relaxed">
                 Objetivo: desarrollar una mirada consciente y comenzar a identificar una voz propia.
               </p>
             </div>
@@ -356,7 +356,7 @@ function NarrativasVisualesPage() {
                   Producción narrativa en estudio o exterior. Revisión de proyectos.
                 </li>
               </ul>
-              <p className="mt-8 pt-5 border-t border-white/10 text-[13.5px] text-white/55 font-light italic leading-relaxed">
+              <p className="mt-8 pt-5 border-t border-white/10 text-[13.5px] text-white/55 font-light leading-relaxed">
                 Objetivo: generar material, ampliar la mirada y consolidar un territorio narrativo personal.
               </p>
             </div>
@@ -394,7 +394,7 @@ function NarrativasVisualesPage() {
                   Cierre con muestra colectiva final. Posibilidad de invitar familiares y amigos.
                 </li>
               </ul>
-              <p className="mt-8 pt-5 border-t border-white/10 text-[13.5px] text-white/55 font-light italic leading-relaxed">
+              <p className="mt-8 pt-5 border-t border-white/10 text-[13.5px] text-white/55 font-light leading-relaxed">
                 Objetivo: editar, curar y montar la obra final para su exhibición.
               </p>
             </div>
