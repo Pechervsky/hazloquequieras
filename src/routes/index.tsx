@@ -306,6 +306,8 @@ function Services() {
           ))}
         </div>
       </div>
+      {/* Zócalo inferior — franja minimalista azul claro (Pantone 285 C #2A66BC suavizado) */}
+      <div aria-hidden="true" className="h-3 w-full bg-[#d4e0f2]" />
     </section>
   )
 }
@@ -833,6 +835,8 @@ function Formacion() {
 
         </div>
       </div>
+      {/* Zócalo inferior — franja minimalista azul claro (Pantone 285 C #2A66BC suavizado) */}
+      <div aria-hidden="true" className="h-3 w-full bg-[#d4e0f2]" />
     </section>
   )
 }
@@ -993,6 +997,8 @@ function ContactSection() {
           </div>
         </div>
       </div>
+      {/* Zócalo inferior — franja minimalista azul claro (Pantone 285 C #2A66BC suavizado) */}
+      <div aria-hidden="true" className="h-3 w-full bg-[#d4e0f2]" />
     </section>
   )
 }
@@ -1099,7 +1105,6 @@ export function Hero() {
         loop
         playsInline
         preload="auto"
-        poster="/hero-mama-bebe.jpg"
         className="block w-full h-auto object-contain bg-black"
       >
         <source src="/hero-clip.mov" type="video/mp4" />
@@ -1177,10 +1182,10 @@ function HomePage() {
       <Navbar />
       <div id="inicio" className="h-20" />
       <Hero />
+      <SeparadorMirar />
       <Formacion />
       <ElFormador />
       <Galeria />
-      <SeparadorMirar />
       <Services />
       <GaleriaTrabajos />
       <ContactSection />
