@@ -163,6 +163,8 @@ function SeparadorMirar() {
 function Services() {
   return (
     <section id="servicios" className="relative w-full overflow-hidden bg-white border-t border-[#2872e0]/10 scroll-mt-32">
+      {/* ── Franja separadora azul (Pantone 285 C · #2A66BC) ── */}
+      <div aria-hidden="true" className="w-full h-2 bg-[#2A66BC]" />
       {/* ── SEPARATOR TITULO: SERVICIOS ── */}
       <div className="w-full bg-white border-b border-[#2872e0]/10 py-16">
         <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 flex flex-col md:flex-row md:items-center justify-between gap-6">
@@ -393,6 +395,8 @@ function Formacion() {
 
   return (
     <section id="formacion" className="relative w-full overflow-hidden bg-white border-t border-[#2872e0]/10 scroll-mt-32">
+      {/* ── Franja separadora azul (Pantone 285 C · #2A66BC) ── */}
+      <div aria-hidden="true" className="w-full h-2 bg-[#2A66BC]" />
       {/* ── SEPARATOR TITULO: FORMACIÓN ── */}
       <div className="w-full bg-white border-b border-[#2872e0]/10 py-16">
         <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 flex flex-col md:flex-row md:items-center justify-between gap-6">
@@ -938,6 +942,8 @@ function Galeria() {
 function ContactSection() {
   return (
     <section id="contacto" className="relative w-full overflow-hidden bg-white border-t border-[#2872e0]/10 scroll-mt-32">
+      {/* ── Franja separadora azul (Pantone 285 C · #2A66BC) ── */}
+      <div aria-hidden="true" className="w-full h-2 bg-[#2A66BC]" />
       {/* ── SEPARATOR TITULO: CONTACTO ── */}
       <div className="w-full bg-white border-b border-[#2872e0]/10 py-16">
         <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12 flex flex-col md:flex-row md:items-center justify-between gap-6">
@@ -1177,6 +1183,14 @@ function HomePage() {
       <Navbar />
       <div id="inicio" className="h-20" />
       <Hero />
+      {/* ── Frase introductoria antes de Formación ── */}
+      <section className="bg-white py-12 md:py-16">
+        <div className="max-w-[1440px] mx-auto px-5 sm:px-8 md:px-12">
+          <p className="text-center text-[clamp(1rem,3vw,2.25rem)] font-extrabold uppercase tracking-[0.06em] sm:tracking-[0.08em] leading-tight text-[#111111]">
+            Mirar diferente<span className="text-[#2872e0]">,</span> crear sin límites
+          </p>
+        </div>
+      </section>
       <Formacion />
       <ElFormador />
       <Galeria />
